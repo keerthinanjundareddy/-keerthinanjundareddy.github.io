@@ -13,6 +13,7 @@ import thumb from "../../assets/images/thumb.jpg"
 import multimedia from "../../assets/images/kiosk-white.jpg"
 import thumbs from "../../assets/images/thumb(1).jpg"
 import qrcodes from "../../assets/images/qrcodes.jpg"
+import Picture1 from "../../assets/images/Picture1.png"
 class Features extends Component {
     render() {
         return (
@@ -83,7 +84,7 @@ class Features extends Component {
                 
 
                 <Col sm={{size:6, offset : 1}}>
-                    <img src={multimedia } className="img-fluid" alt="img" />
+                    <img src={ Picture1} className="img-fluid" alt="img" style={{border:"1px solid lightgrey",background:"lightgrey"}} />
                 </Col>
                 
             </Row>

@@ -56,7 +56,7 @@ class Section extends Component {
                                         <Row>
                                             <Col md="6">
                                                 <h1><span className="font-2">AYATANA</span><br/>A Digital Experience Zone</h1>
-                                                <h4 className="font-20">Welcome to Ayatana,the digital marketing platform to showcase you're products and services to wider audience  like never before,with our cutting-edge-technology and engaging experiences.
+                                                <h4 className="font-20" style={{color:"black"}}>Welcome to Ayatana,the digital marketing platform to showcase you're products and services to wider audience  like never before,with our cutting-edge-technology and engaging experiences.
                                                 wheather you're a small bussiness looking to reach more customers,a customer looking for unique products,Ayatana is the place for you.</h4>
                                                 <Link to="" className="btn btn-custom">Learn more</Link>
                                                 <Link onClick={this.callModal} to="#" className="video-btn btn popup-video"><i className="glyphicon glyphicon-play"></i>Watch Video</Link>
