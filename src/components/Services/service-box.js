@@ -10,7 +10,7 @@ class ServiceBox extends Component {
                     this.props.services.map((service, key) =>
                     <Col key={key} sm="4">
                         <div className="services-box">
-                            <i className={service.icon}></i>
+                            <i className={service.icon}><img src={service.icon} alt={service.title} style={{width:"50px",height:"50px"}} /></i>
                             {/* <div>hi</div> */}
                            {/* <div><img src={service.icon} alt={service.title} /></div>  */}
                             <h4>{service.title}</h4>

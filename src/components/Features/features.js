@@ -5,7 +5,14 @@ import { Container, Row, Col } from "reactstrap";
 import mac from "../../assets/images/mac.png";
 import watch1 from "../../assets/images/watch-1.png";
 import FeatureBox from '../common/feature-box';
-
+import Kioskimage from "../../assets/images/kioskimage.jpg"
+import Vrar from "../../assets/images/Vrar.JPG"
+import Qrimage from "../../assets/images/Qrimage.jpeg"
+import kiosks from "../../assets/images/kiosk-image.jpg"
+import thumb from "../../assets/images/thumb.jpg"
+import multimedia from "../../assets/images/kiosk-white.jpg"
+import thumbs from "../../assets/images/thumb(1).jpg"
+import qrcodes from "../../assets/images/qrcodes.jpg"
 class Features extends Component {
     render() {
         return (
@@ -35,15 +42,15 @@ class Features extends Component {
                 
 
                 <Col sm={{size:6, offset : 1}}>
-                    <img src={mac} className="img-fluid" alt="img"/>
+                    <img src={Vrar} className="img-fluid" alt="img"/>
                 </Col>
                 
             </Row>
             
 
             <Row className="vertical-content features">
-                <Col sm="4">
-                    <img src={watch1} className="img-fluid" alt="img"/>
+                <Col sm="5">
+                    <img src={Kioskimage} className="img-fluid" alt="img" />
                 </Col>
                 <Col sm={{size:6, offset : 1}}>
 
@@ -67,7 +74,7 @@ class Features extends Component {
                     <FeatureBox
                         number="3"
                         title="  High-quality images and videos"
-                        desc1="High-quality images and videos  refers to visual content that is produced at a high resolution  with superior image and video quality.  "
+                        desc1="High-quality images and videos  refers to visual content that is produced at a high resolution  with superior image and video quality on the interactive panels.  "
                         
                         // desc2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         link="#"
@@ -76,7 +83,7 @@ class Features extends Component {
                 
 
                 <Col sm={{size:6, offset : 1}}>
-                    <img src={mac} className="img-fluid" alt="img"/>
+                    <img src={multimedia } className="img-fluid" alt="img" />
                 </Col>
                 
             </Row>
@@ -84,15 +91,15 @@ class Features extends Component {
 
             
             <Row className="vertical-content features">
-                <Col sm="4">
-                    <img src={watch1} className="img-fluid" alt="img"/>
+                <Col sm="5">
+                    <img src={qrcodes} className="img-fluid" alt="img" style={{width:"100%",height:"100%"}}  />
                 </Col>
                 <Col sm={{size:6, offset : 1}}>
 
                     <FeatureBox
                         number="4"
                         title="  Mobile QR code Scanner "
-                        desc1= "It is an innovative technology involves the use of a QR code, which is a two-dimensional barcode that can be scanned using a smartphone camera."
+                        desc1= "It is an innovative technology involves the use of a QR code, which is a two-dimensional barcode that can be scanned using a smartphone camera to access the product information in smart phone"
                         // desc2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         link="#"
                     />
