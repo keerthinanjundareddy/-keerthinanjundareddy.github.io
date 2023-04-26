@@ -99,7 +99,7 @@ class Features extends Component {
                     <FeatureBox
                         number="4"
                         title="  Mobile QR code Scanner "
-                        desc1= "It is an innovative technology involves the use of a QR code, which is a two-dimensional barcode that can be scanned using a smartphone camera to access the product information in smart phone"
+                        desc1= " QR code scanner is a innovative technology feature used in our digital kiosk setup to enhance the customer experience, it is a two-dimensional barcode that can be scanned using a smartphone camera to access the product information in smart phone"
                         // desc2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         link="#"
                     />
