@@ -41,8 +41,9 @@ class Footer extends Component {
                         <Row>
 
                             <Col md="4" sm="12">
-                                <img src={logo} alt="logo" height="24" />
-                                <p className="margin-t-20">Architecto beatae vitae dicta sunt explicabo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel sapien et lacus tempus varius. In finibus lorem vel.</p>
+                                {/* <img src={logo} alt="logo" height="24" /> */}
+                                <div style={{color:"black",fontSize:"20px"}}>Ayatana</div>
+                                <p className="margin-t-20">The digital marketing platform that connects small businesses with their target audience.</p>
 
                                 <ul className="list-inline social">
                                     {
@@ -55,12 +56,12 @@ class Footer extends Component {
                                 </ul>
                             </Col>
 
-                            <Col md={{size:3, offset : 2}} sm="6">
+                            {/* <Col md={{size:3, offset : 2}} sm="6">
                                 <LinkSection title="Solutions" links={this.state.links1} />
-                            </Col>
+                            </Col> */}
 
                             <Col md="3" sm="6">
-                            <LinkSection title="Useful Links" links={this.state.links2} />
+                            <LinkSection title="Useful Links" links={this.state.links2}  />
                             </Col>
 
                         </Row>

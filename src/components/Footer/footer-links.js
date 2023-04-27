@@ -5,7 +5,7 @@ class FooterLinks extends Component {
         return (
             <React.Fragment>
                 <div className="footer-alt bg-dark">
-                    <p className="copy-rights"> 2020 © Vakavia.</p>
+                    <p className="copy-rights"> 2023 © Ayatana.</p>
                 </div>
             </React.Fragment>
         );

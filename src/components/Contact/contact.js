@@ -69,7 +69,7 @@ class GetInTouch extends Component {
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-map-alt"></i>
-                  <h5>New York City, USA</h5>
+                  <h5>Bangalore</h5>
                 </div>
               </Col>
 

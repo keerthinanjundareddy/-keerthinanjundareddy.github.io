@@ -23,7 +23,7 @@ class Features extends Component {
             <Row>
                 <Col sm="12">
                     <div className="title-box text-center">
-                        <h2>Awesome New Feature</h2>
+                        <h2>Our Features</h2>
                     </div>
                 </Col>
             </Row>
