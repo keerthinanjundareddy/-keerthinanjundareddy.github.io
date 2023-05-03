@@ -35,7 +35,7 @@ class Features extends Component {
                         number="1"
                         title="Virtual reality (VR) and Augmented reality (AR) "
                         desc1="Virtual reality (VR) and Augmented reality (AR)  are immersive digital technologies 
-                        that creates a completely virtual environment with the use of a headset device"
+                        that creates a completely virtual environment with the use of a headset device."
                         // desc2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         link="#"
                     />
@@ -100,7 +100,7 @@ class Features extends Component {
                     <FeatureBox
                         number="4"
                         title="  Mobile QR code Scanner "
-                        desc1= " QR code scanner is a innovative technology feature used in our digital kiosk setup to enhance the customer experience, it is a two-dimensional barcode that can be scanned using a smartphone camera to access the product information in smart phone"
+                        desc1= " QR code scanner is a innovative technology feature used in our digital kiosk setup to enhance the customer experience, it is a two-dimensional barcode that can be scanned using a smartphone camera to access the product information in smart phone."
                         // desc2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         link="#"
                     />

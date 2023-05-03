@@ -23,7 +23,7 @@ class Services extends Component {
 
          ],
         services3 : [
-            { title : "Greater reach and accessibility", icon : require("../../assets/images/globe (2).png") , desc : "We provide great reach and accessibility to brands, allowing them to reach their target audience in high-traffic location" },
+            { title : "Greater reach and accessibility", icon : require("../../assets/images/globe (2).png") , desc : "We provide great reach and accessibility to brands, allowing them to reach their target audience in high-traffic location." },
             { title : "Cost-effective Marketing", icon :require("../../assets/images/save-money (1).png") , desc : "We help brands save on physical showroom expenses, allowing them to showcase their products in a phygital environment." },
             // { title : "Creative Idea", icon : "ti-notepad", desc : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet." },
         ],     
