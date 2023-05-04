@@ -20,6 +20,7 @@ import Picture1 from "../../assets/images/Picture1.png"
 import vrnew from "../../assets/images/vrnewone.png"
 import Gallery from "../../assets/images/video.png"
 import Mobilescanner from "../../assets/images/Mobile scanner.png"
+import digitalkiosk from "../../assets/images/Kiosk (2).png"
 // vrnew
 class Features extends Component {
     render() {
@@ -58,13 +59,13 @@ class Features extends Component {
 
             <Row className="vertical-content features">
                 <Col sm="5">
-                    <img src={Kioskimage} className="img-fluid" alt="img" />
+                    <img src={digitalkiosk} className="img-fluid" alt="img" />
                 </Col>
                 <Col sm={{size:6, offset : 1}}>
 
                     <FeatureBox
                         number="2"
-                        title=" Interactive Panels  "
+                        title=" Interactive Panels "
                         desc1=" They  are typically designed to be easy to use, intuitive, and visually appealing,It  is a technology-based solution that provide a self-service option to their customers." 
                         // desc2="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                         link="#"
