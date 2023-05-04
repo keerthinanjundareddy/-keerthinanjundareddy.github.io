@@ -20,7 +20,7 @@ import Picture1 from "../../assets/images/Picture1.png"
 import vrnew from "../../assets/images/vrnewone.png"
 import Gallery from "../../assets/images/video.png"
 import Mobilescanner from "../../assets/images/Mobile scanner.png"
-import digitalkiosk from "../../assets/images/Kiosk (2).png"
+import digitalkiosk from "../../assets/images/Kiosk (1) (2).png"
 // vrnew
 class Features extends Component {
     render() {
