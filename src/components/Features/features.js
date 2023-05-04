@@ -14,6 +14,13 @@ import multimedia from "../../assets/images/kiosk-white.jpg"
 import thumbs from "../../assets/images/thumb(1).jpg"
 import qrcodes from "../../assets/images/qrcodes.jpg"
 import Picture1 from "../../assets/images/Picture1.png"
+
+
+// import Scanner from "../../assets/images/Scanner.png"
+import vrnew from "../../assets/images/vrnewone.png"
+import Gallery from "../../assets/images/video.png"
+import Mobilescanner from "../../assets/images/Mobile scanner.png"
+// vrnew
 class Features extends Component {
     render() {
         return (
@@ -43,7 +50,7 @@ class Features extends Component {
                 
 
                 <Col sm={{size:6, offset : 1}}>
-                    <img src={Vrar} className="img-fluid" alt="img"/>
+                    <img src={vrnew} className="img-fluid" alt="img" style={{borderRadius:"10px"}}/>
                 </Col>
                 
             </Row>
@@ -84,7 +91,7 @@ class Features extends Component {
                 
 
                 <Col sm={{size:6, offset : 1}}>
-                    <img src={ Picture1} className="img-fluid" alt="img" style={{border:"1px solid lightgrey",background:"lightgrey"}} />
+                    <img src={ Gallery} className="img-fluid" alt="img" style={{borderRadius:"10px"}} />
                 </Col>
                 
             </Row>
@@ -93,7 +100,7 @@ class Features extends Component {
             
             <Row className="vertical-content features">
                 <Col sm="5">
-                    <img src={qrcodes} className="img-fluid" alt="img" style={{width:"100%",height:"100%"}}  />
+                    <img src={Mobilescanner } className="img-fluid" alt="img" />
                 </Col>
                 <Col sm={{size:6, offset : 1}}>
 

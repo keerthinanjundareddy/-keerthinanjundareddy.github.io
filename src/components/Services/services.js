@@ -12,7 +12,7 @@ class Services extends Component {
     state = {
         services1 : [
            { title : "Brand Exposure", icon:require("../../assets/images/kiosk.png") ,desc : "We help brands to showcase their products and services in a unique and innovative way by creating an interactive displays. " },
-           { title : "Immersive Product Experience", icon :require("../../assets/images/vr.png") , desc : "We encourage customers to engage with the brand in innovative ways by providing fascinating experience for customers through the use of VR and AR technology." },
+           { title : "Immersive Product Experience", icon :require("../../assets/images/vrr.png") , desc : "We encourage customers to engage with the brand in innovative ways by providing fascinating experience for customers through the use of VR and AR technology." },
            { title : "Product Sampling Opportunities", icon : require("../../assets/images/human-hand.png") , desc : " We provide a platform for brands to offer product samples to their target audience, which can increase brand loyalty and drive conversions." },
         ],   
         services2 : [
