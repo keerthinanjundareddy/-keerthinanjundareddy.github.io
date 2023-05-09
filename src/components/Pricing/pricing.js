@@ -35,8 +35,8 @@ class Pricing extends Component {
     render() {
         return (
             <React.Fragment>
-    <section className="section" id="pricing" style={{width:"100%"}} >
-        <Container >
+    <section className="section" id="pricing" style={{width:"100%",Top:"0px"}} >
+        {/* <Container  > */}
 {/* 
         <SectionTitle title1="Simple" title2="Pricing" />
             
@@ -144,7 +144,7 @@ class Pricing extends Component {
 
 
 
-        </Container>
+        {/* </Container> */}
         
     </section>
             </React.Fragment>

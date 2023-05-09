@@ -72,11 +72,14 @@ class Index1 extends Component {
                     {/* Importing Navbar */}
                     <NavbarPage navItems={this.state.navItems} navclassName={this.state.navClass}/>
                    {/* importing carousel */}
-                   {/* <ProductCarousel /> */}
+                   
                     {/* Importing section */}
                     <Pricing/>
-                    <Section/>
                     
+
+                    <Section/>
+                    {/* impo */}
+                    {/* <Carousel /> */}
                     {/* Importing features */}
                     <Features isBgWhite={true}/>
 
