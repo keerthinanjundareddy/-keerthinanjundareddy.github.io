@@ -1,0 +1,128 @@
+body{
+    /* background-color: aquamarine; */
+    margin: 0px;
+    padding: 0px;
+}
+.full-container{
+    width:100%;
+   
+  }
+  video {
+      width: 100%;
+    }
+    .carousel-container {
+      position: relative;
+      width:"100%"
+    }
+    .carousel-indicators {
+      position: absolute;
+      text-align: center;
+      color:red  !important;
+      /* background-color: aqua  !important; */
+      /* float: right; */
+      /* right: 2% !important; */
+      /* left: inherit; */
+       /* top:500px !important; */
+  }
+  .carousel-indicators li{
+    color:red;
+  }
+  .my-indicators .carousel-indicators li {
+  color: red; 
+  }
+    
+  
+  .carousel-item-padding{
+      padding-right:2px;
+      padding-left: 2px;
+      }
+      /* .carousel-item-padding:nth-child(1){
+          padding-right:0px;
+          } */
+      /* .arrow {
+          background-color: blue;
+          border: none;
+          color: white;
+          font-size: 24px;
+          margin: 0 10px;
+          outline: none;
+          padding: 10px;
+          cursor: pointer;
+        } */
+      
+      
+      
+      
+      
+        
+        /* .react-multiple-carousel__arrow {
+          position:absolute;
+          color:"blue"
+      } */
+      
+      .react-multiple-carousel__arrow--left {
+          left: calc(-1% + 5px);
+          color:red;
+      }
+      
+      .react-multiple-carousel__arrow--right {
+          right: calc(-1% + 5px)
+      }
+      /* .react-multiple-carousel__arrow--right{
+          border:"none";
+          size:"20px"
+      }  */
+      
+      
+      
+      .react-multiple-carousel__arrow {
+          background-color:white;
+          border-radius: 10%;
+          /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+          color: pink;
+          cursor: pointer;
+          height: 50px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 50px;
+          border-color: aliceblue;
+        }
+      
+      
+        
+      .react-multiple-carousel__arrow:hover {
+          background-color:white;
+          border-radius: 10%;
+          /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+          color:pink;
+          cursor: pointer;
+          height: 50px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 50px;
+          /* border-color: aliceblue; */
+      }
+        /* .react-multiple-carousel__arrow:active {
+          background-color:pink;
+          border-radius: 10%;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          color: #333;
+          cursor: pointer;
+          height: 5px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 5px;
+        } */
+      
+        .react-multiple-carousel__arrow::before {
+          color:black;
+        }
+      
+      
+        .react-multiple-carousel__arrow:focus {
+          outline: none;
+        }
+        

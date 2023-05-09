@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
+import Carousel from 'react-bootstrap/Carousel';
+import carousel1 from "../../assets/images/Gallery (1).png";
+import carousel2 from "../../assets/images/Gallery (1).png";
+import carousel3 from "../../assets/images/Gallery (1).png";
+// import carousel1 from '../images/Gallery (1).png';
+// import carousel2 from '../images/Gallery (1).jpg';
+// import carousel3 from '../images/Gallery (1).png';
+
 //Importing Modal
 import ModalSection from '../../components/common/ModalSection';
 
@@ -48,11 +56,17 @@ class Section extends Component {
             <section className="home bg-home" id="home">
 
                 <Container>
+                    
                     <Row>
                         <Col md="12">
                             <div className="home-fullscreen" id="home-fullscreen" style={{height : this.state.height+"px"}}>
                                 <div className="full-screen">
                                     <div className="home-wrapper home-wrapper-alt">
+                                        <div>
+                                        < div className="full-container">
+   
+    </div>
+                                        </div>
                                         <Row>
                                             <Col md="6">
                                                 <h1><span className="font-2">AYATANA</span><br/>A Digital Experience Zone</h1>

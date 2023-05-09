@@ -17,7 +17,7 @@ import Picture1 from "../../assets/images/Picture1.png"
 
 
 // import Scanner from "../../assets/images/Scanner.png"
-import vrnew from "../../assets/images/vrnewone.png"
+import vrnew from "../../assets/images/VR (3).png"
 import Gallery from "../../assets/images/video.png"
 import Mobilescanner from "../../assets/images/Mobile scanner.png"
 import digitalkiosk from "../../assets/images/Kiosk (1) (2).png"
