@@ -45,7 +45,7 @@ class Footer extends Component {
                                 <div style={{color:"black",fontSize:"20px"}}>Ayatana</div>
                                 <p className="margin-t-20">The digital marketing platform that connects small businesses with their target audience.</p>
 
-                                <ul className="list-inline social">
+                                {/* <ul className="list-inline social">
                                     {
                                         this.state.socials.map((social, key) =>
                                             <li key={key} className="list-inline-item">
@@ -53,16 +53,16 @@ class Footer extends Component {
                                             </li>
                                         )
                                     }
-                                </ul>
+                                </ul> */}
                             </Col>
 
                             {/* <Col md={{size:3, offset : 2}} sm="6">
                                 <LinkSection title="Solutions" links={this.state.links1} />
                             </Col> */}
 
-                            <Col md="3" sm="6">
+                            {/* <Col md="3" sm="6">
                             <LinkSection title="Useful Links" links={this.state.links2}  />
-                            </Col>
+                            </Col> */}
 
                         </Row>
 
