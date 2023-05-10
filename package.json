@@ -15,6 +15,7 @@
     "react-dom": "^16.13.1",
     "react-flex-carousel": "^1.1.0",
     "react-modal-video": "^1.2.3",
+    "react-multi-carousel": "^2.8.3",
     "react-owl-carousel": "^2.3.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",

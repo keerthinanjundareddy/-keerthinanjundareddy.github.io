@@ -33,9 +33,9 @@ class Services extends Component {
             <React.Fragment>
     <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="services">
         <Container>
-            <SectionTitle title1="Our" title2="Services" />          
+            <SectionTitle title1="Our" title2="Services"  />          
 
-            <Row>
+            <Row >
                 <ServiceBox services={this.state.services1} />                
             </Row>      
 

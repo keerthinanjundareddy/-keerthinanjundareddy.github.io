@@ -60,9 +60,11 @@ class Footer extends Component {
                                 <LinkSection title="Solutions" links={this.state.links1} />
                             </Col> */}
 
-                            {/* <Col md="3" sm="6">
-                            <LinkSection title="Useful Links" links={this.state.links2}  />
-                            </Col> */}
+                            <Col md="6" sm="6">
+                               Discover Phygital Santhe Website Here
+                                 <button style={{ border:"none",outline:"none",border:"1px solid #f56363",backgroundColor:"#f56363",borderRadius:"20px",color:"white",width:"300px",height:"40px"}}><a href="https://incomparable-hamster-92fd22.netlify.app/"  target="_blank" style={{color:"white"}}><b>EXPLORE PHYGITAL</b></a></button>
+                            {/* <LinkSection title="Useful Links" links={this.state.links2}  /> */}
+                            </Col>
 
                         </Row>
 

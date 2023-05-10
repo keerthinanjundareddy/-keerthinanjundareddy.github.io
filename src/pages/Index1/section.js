@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import Carousel from 'react-bootstrap/Carousel';
 import carousel1 from "../../assets/images/Gallery (1).png";
 import carousel2 from "../../assets/images/Gallery (1).png";
-import carousel3 from "../../assets/images/Gallery (1).png";
+import carousel3 from "../../assets/images/Carosel 4.png";
 // import carousel1 from '../images/Gallery (1).png';
 // import carousel2 from '../images/Gallery (1).jpg';
 // import carousel3 from '../images/Gallery (1).png';
@@ -73,7 +73,8 @@ class Section extends Component {
                                                 <h4 className="font-20" style={{color:"black"}}>Welcome to Ayatana,the digital marketing platform to showcase you're products and services to wider audience  like never before,with our cutting-edge-technology and engaging experiences.
                                                 Wheather you're a small bussiness looking to reach more customers,a customer looking for unique products,Ayatana is the place for you.</h4>
                                                 {/* <Link to="" className="btn btn-custom">Learn more</Link> */}
-                                                <Link onClick={this.callModal} to="#" className="video-btn btn popup-video"style={{border:"1px solid red",backgroundColor:"red"}}><i className="glyphicon glyphicon-play"></i>Watch Video</Link>
+                                                <Link onClick={this.callModal} to="#" className="video-btn btn popup-video"style={{border:"1px solid #f56363",backgroundColor:"#f56363"}}>Watch Video</Link>
+                                                {/* <button><a href="http://127.0.0.1:5500/Exhibiz/Exhibiz/index.html"  target="_blank">Explore Phygital</a></button> */}
                                             </Col>
                                         </Row>
                                     </div>
