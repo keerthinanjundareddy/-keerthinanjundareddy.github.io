@@ -42,7 +42,7 @@ class Pricing extends Component {
     render() {
         return (
             <React.Fragment>
-    <section className="section" id="pricing" style={{width:"100%",Top:"0px",bottom:"0px"}} >
+    <section className="sections" id="pricing" style={{width:"100%",marginTop:"50px",bottom:"0px"}} >
     
     <div >
     
@@ -88,7 +88,7 @@ class Pricing extends Component {
      <img src={carousel3} alt="imageone" className='image-section'
        />
      <p className="firstSlide" style={{position:"absolute"}}><b>Phygital Shopping</b></p>
-     <p className="topfirstSlide" style={{position:"absolute",textAlign:"center",AlignItem:"center"}}>firstslide</p>
+     <p className="topfirstSlide" style={{position:"absolute",textAlign:"center",AlignItem:"center"}}>Explore products in inovative ways</p>
    </div>
    
  </Carousel>
