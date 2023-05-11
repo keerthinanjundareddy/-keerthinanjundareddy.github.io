@@ -425,8 +425,8 @@ h6 {
 }
 
 .home-wrapper-alt{
-  display: table-cell;
-  vertical-align: middle;
+  /* display: table-cell; */
+  /* vertical-align: middle; */
 }
 
 .home-wrapper h1{

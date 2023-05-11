@@ -42,7 +42,7 @@ class Pricing extends Component {
     render() {
         return (
             <React.Fragment>
-    <section className="sections" id="pricing" style={{width:"100%",marginTop:"50px",bottom:"0px"}} >
+    <section className="sections" id="pricing" style={{width:"100%",marginTop:"50px",bottom:"0px",marginBottom:"100px"}} >
     
     <div >
     

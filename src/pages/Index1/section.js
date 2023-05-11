@@ -61,7 +61,7 @@ class Section extends Component {
                         <Col md="12">
                             <div className="home-fullscreen" id="home-fullscreen" style={{height : this.state.height+"px"}}>
                                 <div className="full-screen">
-                                    <div className="home-wrapper home-wrapper-alt">
+                                    <div className="home-wrapper home-wrapper-alt" >
                                         <div>
                                         < div className="full-container">
    
