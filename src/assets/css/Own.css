@@ -260,10 +260,11 @@ body{
             }
             @media screen and (max-width: 480px) {
               .image-section{
-                height:100%;
+                height:60vh;
               }
             .full-div{
               background-color: aqua;
+            
             }
             .firstSlide{
               text-align: center;
