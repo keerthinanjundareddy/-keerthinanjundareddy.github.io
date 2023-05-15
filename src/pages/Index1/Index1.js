@@ -2,13 +2,14 @@ import React, { Component, Suspense } from 'react';
 // import ProductCarousel from '../../components/Carousel/ProductCarousel';
 
 const NavbarPage = React.lazy(() => import('../../components/Navbar/Navbar_Page'));
-const Carousel=React.lazy(() => import('../../components/Carousel/ProductCarousel'));
+// const Carousel=React.lazy(() => import('../../components/Carousel/ProductCarousel'));
 const Section = React.lazy(() => import('./section'));
+const Pricing = React.lazy(() => import('../../components/Pricing/pricing'));
 const Features = React.lazy(() => import('../../components/Features/features'));
 const Services = React.lazy(() => import('../../components/Services/services'));
 // const Clients = React.lazy(() => import('../../components/Clients/clients'));
 const OurTeam = React.lazy(() => import('../../components/Team/our-team'));
-const Pricing = React.lazy(() => import('../../components/Pricing/pricing'));
+
 // const Counter = React.lazy(() => import('../../components/Counter/counter'));
 const Contact = React.lazy(() => import('../../components/Contact/contact'));
 const Footer = React.lazy(() => import('../../components/Footer/footer'));
@@ -19,14 +20,14 @@ class Index1 extends Component {
         this.state = {
             navItems : [
                 { id: 1, idnm : "pricing", navheading: "Home" },
-                { id: 2 , idnm : "home", navheading: "About" },
+                { id: 2, idnm : "home", navheading: "About" },
 
                 // { id: 7 , idnm : "Carousel", navheading: "Carousel" },
                 { id: 3 , idnm : "features", navheading: "Features" },
                 { id: 4 , idnm : "services", navheading: "Services" },
-                { id: 5 , idnm : "team", navheading: "Team" },
+                { id: 5, idnm : "team", navheading: "Team" },
                
-                { id: 6 , idnm : "contact", navheading: "Contact" },
+                { id: 6, idnm : "contact", navheading: "Contact" },
             ],
             pos : document.documentElement.scrollTop,
             imglight : true,

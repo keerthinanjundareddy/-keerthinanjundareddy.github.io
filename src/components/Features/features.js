@@ -26,7 +26,7 @@ class Features extends Component {
     render() {
         return (
             <React.Fragment>
-    <section className={this.props.isBgWhite === true ? "sections" : "section bg-lightgray"} id="features">
+    <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="features">
         <Container>
             <Row>
                 <Col sm="12">
