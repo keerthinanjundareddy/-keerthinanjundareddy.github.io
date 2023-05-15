@@ -53,7 +53,7 @@ class Section extends Component {
     render() {
         return (
             <React.Fragment>
-            <section className="home bg-home" id="home">
+            <section className=" home bg-home " id="home">
 
                 <Container>
                     
@@ -67,7 +67,7 @@ class Section extends Component {
    
     </div>
                                         </div>
-                                        <Row>
+                                        <Row >
                                             <Col md="6">
                                                 <h1><span className="font-2">AYATANA</span><br/>A Digital Experience Zone</h1>
                                                 <h4 className="font-20" style={{color:"black"}}>Welcome to Ayatana,the digital marketing platform to showcase you're products and services to wider audience  like never before,with our cutting-edge-technology and engaging experiences.

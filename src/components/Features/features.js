@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "reactstrap";
-
+import '../../assets/css/style.css'
 //Import Images
 import mac from "../../assets/images/mac.png";
 import watch1 from "../../assets/images/watch-1.png";
@@ -31,13 +31,13 @@ class Features extends Component {
             <Row>
                 <Col sm="12">
                     <div className="title-box text-center">
-                        <h2>Our Features</h2>
+                        <h2 >Our Features</h2>
                     </div>
                 </Col>
             </Row>
             
 
-            <Row className="vertical-content features">
+            <Row className="verticalone">
                 <Col sm="5">
                     <FeatureBox
                         number="1"
@@ -57,7 +57,7 @@ class Features extends Component {
             </Row>
             
 
-            <Row className="vertical-content features">
+            <Row className="verticaltwo">
                 <Col sm="5">
                     <img src={digitalkiosk} className="img-fluid" alt="img" />
                 </Col>

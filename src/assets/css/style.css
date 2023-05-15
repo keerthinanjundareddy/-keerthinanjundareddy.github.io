@@ -230,9 +230,9 @@ h6 {
 
 /* Background images css */
 .bg-home {
-  background: url("../../assets/images/Hero section (1).png");
+  background-image:  url("../../assets/images/Hero section (1).png");
   background-size: cover;
-  background-color: #222328;
+  background-color:  #fafafa !important; 
   position: relative;
 }
 
@@ -425,8 +425,10 @@ h6 {
 }
 
 .home-wrapper-alt{
-  /* display: table-cell; */
-  /* vertical-align: middle; */
+  display: table-cell;
+  
+  vertical-align: middle;
+
 }
 
 .home-wrapper h1{
@@ -1042,4 +1044,36 @@ h6 {
     height:500px;
   } */
 
+  .bg-home {
+    /* background: url("../../assets/images/Hero section (1).png"); */
+    background-image:none;
+    background-size: cover;
+    background-color:#fafafa !important;
+    position: relative;
+  }
+  .home-wrapper-alt{
+    display: table-cell; 
+    
+     vertical-align: middle;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  
+  }
 }
+
+
+
+/* own css */
+/* @media (max-width: 420px) {
+.verticalone{
+  display: flex;
+  flex-direction: column;
+}
+
+.verticaltwo{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+} */
