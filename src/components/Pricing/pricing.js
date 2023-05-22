@@ -8,7 +8,7 @@ import SectionTitle from "../common/section-title";
 // import PricingBox from './pricing-box';
 import '../../assets/css/Own.css'
 // import Carousel from 'react-bootstrap/Carousel';
-import carousel1 from "../../assets/images/Carosel 7.png";
+import carousel1 from "../../assets/images/Carosel 8.png";
 import carousel2 from "../../assets/images/Carosel 3.png";
 import carousel3 from "../../assets/images/Carosel 2 (1).png";
 
