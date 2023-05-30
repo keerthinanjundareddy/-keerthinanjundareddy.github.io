@@ -11,29 +11,31 @@ import imageone from '../../assets/images/team/team1.jpg'
 class Services extends Component {
     state = {
         services1 : [
-           { title : "Brand Exposure", icon:require("../../assets/images/kiosk.png") ,desc : "We help brands to showcase their products and services in a unique and innovative way by creating an interactive displays. " },
-           { title : "Immersive Product Experience", icon :require("../../assets/images/vrr.png") , desc : "We encourage customers to engage with the brand in innovative ways by providing fascinating experience for customers through the use of VR and AR technology." },
-           { title : "Product Sampling Opportunities", icon : require("../../assets/images/human-hand.png") , desc : " We provide a platform for brands to offer product samples to their target audience, which can increase brand loyalty and drive conversions." },
+           { title : "Enhanced customer experience", icon:require("../../assets/images/Enhanced customer experience.png") ,desc : "Ayatana engage customers through physical interaction, personalized recommendations, and access to digital content for an immersive experience. " },
+           { title : "	Enhanced customer insights", icon :require("../../assets/images/Enhanced customer insights.png") , desc : "Ayatana provide valuable consumer data for targeted marketing and product improvement." },
+           { title : "Reduced costs", icon : require("../../assets/images/Reduced costs.png") , desc : "Save on showroom expenses with our phygital platform for product showcasing." },
         ],   
         services2 : [
-            { title : "Data Analytics", icon : require("../../assets/images/data-analytics (1).png") , desc : "We enable brands to gather valuable data on customer behavior and preferences, which can be used to improve their products  and enhance customer satisfaction." },
-            { title : "Interactive Gaming Zones", icon : require("../../assets/images/game-console.png") , desc : "We provide an entertaining gaming environment for the customers that goes beyond the traditional retail environments." },
-            { title : "Mobile Scanning Capability", icon :require("../../assets/images/qr-scan.png") , desc : "We help Customers to easily access detailed product information on their mobile devices by scanning the QRcode displayed on interactive panels."},
+            { title : "Physical & Virtual Experience", icon : require("../../assets/images/Physical & Virtual Experience.png") , desc : "Ayatana offer immersive, personalized, and convenient shopping experiences by merging the physical and digital realms." },
+            { title : "Increased Brand awareness", icon : require("../../assets/images/Increased Brand awareness.png") , desc : "strategies generate buzz, create unique experiences, and enhance brand awareness, differentiation, and attention." },
+            { title : "Immersive Product experience", icon :require("../../assets/images/Immersive Product experience.png") , desc : "Fascinate customers with VR and AR experiences, encouraging innovative brand engagement."},
         
 
          ],
         services3 : [
-            { title : "Greater reach and accessibility", icon : require("../../assets/images/globe (2).png") , desc : "We provide great reach and accessibility to brands, allowing them to reach their target audience in high-traffic location." },
-            { title : "Cost-effective Marketing", icon :require("../../assets/images/save-money (1).png") , desc : "We help brands save on physical showroom expenses, allowing them to showcase their products in a phygital environment." },
-            // { title : "Creative Idea", icon : "ti-notepad", desc : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet." },
+            { title : "Product sampling opportunities", icon : require("../../assets/images/Product sampling opportunities.png") , desc : "Boost brand loyalty and conversions with our targeted product sampling platform." },
+            { title : "Greater reach", icon :require("../../assets/images/Greater reach.png") , desc : "Offering high-traffic locations for brands, we provide excellent reach and accessibility to target audiences." },
+            { title : "Competitive edge", icon : require("../../assets/images/Competitive edge.png") , desc : "Stay relevant and competitive with phygital stores, offering innovative and immersive shopping experiences through cutting-edge technologies and trends." },
         ],     
     }
     render() {
         return (
             <React.Fragment>
     <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="services">
+
+     {/* <section className="section bg-lightgray" id="services"> */}
         <Container>
-            <SectionTitle title1="Our" title2="Services"  />          
+            <SectionTitle title1="Why Ayatana"   />          
 
             <Row >
                 <ServiceBox services={this.state.services1} />                

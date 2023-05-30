@@ -69,11 +69,15 @@ class Section extends Component {
                                         </div>
                                         <Row >
                                             <Col md="6">
-                                                <h1><span className="font-2">AYATANA</span><br/>A Digital Experience Zone</h1>
-                                                <h4 className="font-20" style={{color:"black"}}>Welcome to Ayatana,the digital marketing platform to showcase you're products and services to wider audience  like never before,with our cutting-edge-technology and engaging experiences.
-                                                Wheather you're a small bussiness looking to reach more customers,a customer looking for unique products,Ayatana is the place for you.</h4>
+                                                <h2 style={{fontSize:"20px",color:"grey"}}><span className="font-2"  style={{fontSize:"35px",color:""}}>AYATANA</span><br/>Phygital Perfection:Where Innovation Meets Experience</h2>
+                                              
+                                                <h4 className="font-20" style={{color:"black"}}>Ayatana is a phygital retail platform that uses AI to blend the physical and digital worlds. We offer brands a comprehensive suite of tools and capabilities to optimize their operations and engage customers in groundbreaking ways.</h4>
+                                                <h4 className="font-20" style={{color:"black"}}>Whether you are a small boutique or a global brand, our platform can help you connect with your customers on a deeper level and achieve remarkable business results. Join us on this exciting journey as we redefine the future of retail through the fusion of physical and digital realms, guided by the power of AI.</h4>
+                                                <h3>Welcome to the future of shopping. Welcome to Ayatana!</h3>
                                                 {/* <Link to="" className="btn btn-custom">Learn more</Link> */}
-                                                <Link onClick={this.callModal} to="#" className="video-btn btn popup-video"style={{border:"1px solid #f56363",backgroundColor:"#f56363"}}>Watch Video</Link>
+                                                <div style={{textAlign:"center"}}>
+                                                <Link onClick={this.callModal} to="#" className="video-btn btn popup-video"style={{border:"1px solid #f56363",backgroundColor:"#f56363",textAlign:"center"}}>Watch Video</Link>
+                                                </div>
                                                 {/* <button><a href="http://127.0.0.1:5500/Exhibiz/Exhibiz/index.html"  target="_blank">Explore Phygital</a></button> */}
                                             </Col>
                                         </Row>

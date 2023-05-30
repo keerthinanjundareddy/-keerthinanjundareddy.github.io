@@ -230,10 +230,11 @@ h6 {
 
 /* Background images css */
 .bg-home {
-  background-image:  url("../../assets/images/Hero section (1).png");
+  background-image:  url("../../assets/images/About section.png");
   background-size: cover;
   background-color:  #fafafa !important; 
   position: relative;
+
 }
 
 .bg-pattern {

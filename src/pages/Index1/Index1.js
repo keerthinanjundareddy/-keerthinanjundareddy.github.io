@@ -20,7 +20,7 @@ class Index1 extends Component {
         this.state = {
             navItems : [
                 { id: 1, idnm : "pricing", navheading: "Home" },
-                { id: 2, idnm : "home", navheading: "About" },
+                { id: 2, idnm : "home", navheading: "About Us" },
 
                 // { id: 7 , idnm : "Carousel", navheading: "Carousel" },
                 { id: 3 , idnm : "features", navheading: "Features" },

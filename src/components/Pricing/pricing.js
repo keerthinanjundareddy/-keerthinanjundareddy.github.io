@@ -8,7 +8,7 @@ import SectionTitle from "../common/section-title";
 // import PricingBox from './pricing-box';
 import '../../assets/css/Own.css'
 // import Carousel from 'react-bootstrap/Carousel';
-import carousel1 from "../../assets/images/Carosel 8.png";
+import carousel1 from "../../assets/images/Carosel 10 (1).png";
 import carousel2 from "../../assets/images/Carosel 3.png";
 import carousel3 from "../../assets/images/Carosel 2 (1).png";
 
@@ -70,14 +70,14 @@ class Pricing extends Component {
 
      <div  className='full-div'>
      
-       <img src={carousel1} alt="imageone" className='image-section'
+       <img src={carousel1} alt="imageone" className='image-section' style={{height:"110vh"}}
         />
        <p className="firstSlide" style={{position:"absolute",textAlign:"center",AlignItem:"center"}}><b>Phygital Store</b></p>
        <p className="topfirstSlide" style={{position:"absolute",textAlign:"center",AlignItem:"center"}}>Step into the phygital world of shopping</p>
      </div>
      <div>
      
-     <img src={carousel2} alt="imageone" className='image-section'
+     <img src={carousel2} alt="imageone" className='image-section'  style={{height:"95vh"}}
        />
      <p  className="firstSlide" style={{position:"absolute"}}><b>Virtual Experience</b></p>
      <p className="topfirstSlide" style={{position:"absolute",textAlign:"center",AlignItem:"center"}}>Experience Products in Virtual World</p>
@@ -85,7 +85,7 @@ class Pricing extends Component {
 
    <div>
      
-     <img src={carousel3} alt="imageone" className='image-section'
+     <img src={carousel3} alt="imageone" className='image-section'  style={{height:"110vh"}}
        />
      <p className="firstSlide" style={{position:"absolute"}}><b>Phygital Shopping</b></p>
      <p className="topfirstSlide" style={{position:"absolute",textAlign:"center",AlignItem:"center"}}>Explore products in inovative ways</p>
