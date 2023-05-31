@@ -43,11 +43,11 @@ class NavbarPage extends Component {
                 <StickyHeader
                     
                     header = {
-                            <Navbar expand="lg" fixed="top" className="navbar-custom sticky">
+                            <Navbar expand="lg" fixed="top" className="navbar-custom sticky" >
                                 <Container>
                                         <NavbarBrand className="logo text-uppercase" href="/">
                                             {/* <h3>AYATANA</h3> */}
-                                        <img src={logo} alt="logo"  className="logos-icon"  height="80"  />
+                                        <img src={logo} alt="logo"  className="logos-icon"  height="100"  />
                                         
                                         </NavbarBrand>
                                         <NavbarToggler onClick={this.toggle} ><i className="ti-menu"></i></NavbarToggler>
