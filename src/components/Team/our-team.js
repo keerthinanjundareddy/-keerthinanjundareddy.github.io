@@ -59,7 +59,7 @@ class OurTeam extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section" id="team">
+        <section className="section bg-lightgray" id="team">
           <Container>
             <SectionTitle title1="Our Creative" title2="Team" />
 

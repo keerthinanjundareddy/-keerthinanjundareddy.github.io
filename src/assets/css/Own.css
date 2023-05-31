@@ -323,15 +323,18 @@ body{
     }
     .item-section-three{
         flex-basis:30%;
-            border: 1px solid #FAB1B1;
+            /* border: 1px solid #FAB1B1; */
             border-radius: 20px;
             margin-top:50px;
-            padding: 30px;
-            margin-bottom:50px;
+            /* padding: 30px; */
+            /* margin-bottom:50px; */
 
             /* box-shadow:  2px lightgrey; */
           /* text-align: center; */
      
+    }
+    .bottoms-section{
+      margin-top: 50px;
     }
     
     
@@ -361,7 +364,7 @@ body{
   border-radius: 50%;
   /* border: 1px solid black; */
   background-image: none;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 .carousel-control-next-icon:after
@@ -381,4 +384,67 @@ body{
     
       
       
+      /* mission css */
+
+      .content-flexbox-container{
+        display:flex;
+        flex-direction: row;
+        gap:30px;
+      }
+
+      .content-flexbox-container-two{
+        display:flex;
+        flex-direction: row;
+        gap:30px;
+      }
+
+      .content-flexbox-container-three{
+        display:flex;
+        flex-direction: row;
+        gap:30px;
+      }
+
+
+
+      /* why ayatana css */
+
       
+      .flex-box-container-seven{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        margin: auto;
+        flex-wrap: wrap;
+        /* we can give anyting here based on mocks */
+        justify-content: space-around;
+    }
+    .item-section-seven{
+        flex-basis:30%;
+            /* border: 1px solid #FAB1B1; */
+            border-radius: 20px;
+            margin-top:40px;
+            /* box-shadow:  2px lightgrey; */
+          /* text-align: center; */
+     
+    }
+
+    .service-flexbox-container{
+      display:flex;
+      flex-direction: row;
+      gap:30px;
+    }
+    
+    
+    @media screen and (max-width: 480px) {
+        .flexbox-container-seven{
+            display:flex;
+            flex-direction: column;
+            width:100%;
+        }
+    
+        .item-section-seven{
+            flex-basis:100%;
+        }
+        
+    
+    }

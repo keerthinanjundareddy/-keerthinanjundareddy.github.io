@@ -17,7 +17,7 @@ import '../../../node_modules/react-sticky-header/styles.css';
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/Ayatana (2).png";
 
 class NavbarPage extends Component {
     constructor(props){
@@ -47,7 +47,8 @@ class NavbarPage extends Component {
                                 <Container>
                                         <NavbarBrand className="logo text-uppercase" href="/">
                                             {/* <h3>AYATANA</h3> */}
-                                        {/* <img src={logo} alt="logo" height="50" /> */}
+                                        <img src={logo} alt="logo" height="50" />
+                                        
                                         </NavbarBrand>
                                         <NavbarToggler onClick={this.toggle} ><i className="ti-menu"></i></NavbarToggler>
 

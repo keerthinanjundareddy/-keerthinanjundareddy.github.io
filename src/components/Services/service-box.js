@@ -1,24 +1,37 @@
 import React, { Component } from 'react';
 import { Col } from "reactstrap";
 
+import '../../assets/css/Own.css'
+
 class ServiceBox extends Component {
 
     render() {
         return (
             <React.Fragment>
+                 <div className='flex-box-container-seven'>
                 {
+                   
                     this.props.services.map((service, key) =>
-                    <Col key={key} sm="4">
-                        <div className="services-box">
+                    // <Col key={key} sm="4">
+                        <div className="item-section-seven">
+
+
+                            <div className='service-flexbox-container'>
+                            <div>
                             <i className={service.icon}><img src={service.icon} alt={service.title} style={{width:"50px",height:"50px"}} /></i>
+                            </div>
                             {/* <div>hi</div> */}
                            {/* <div><img src={service.icon} alt={service.title} /></div>  */}
-                            <h4>{service.title}</h4>
-                            <p>{service.desc}</p>
+                           <div>
+                            <div style={{fontSize:"20px"}}><b>{service.title}</b></div>
+                            <div>{service.desc}</div>
+                            </div>
+                            </div>
                         </div>
-                    </Col>
+                    //  </Col>
                     )
                 }
+                </div>
             </React.Fragment>
         );
     }

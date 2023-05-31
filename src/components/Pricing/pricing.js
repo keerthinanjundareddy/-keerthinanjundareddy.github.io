@@ -22,7 +22,7 @@ function Pricing(){
     
         return (
             // <React.Fragment>
-    <section className="section" id="pricing">
+    <section className="section " id="pricing">
     
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">

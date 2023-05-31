@@ -30,8 +30,14 @@ Table of contents
 ---------------------*/
 
 
+  /* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Poppins', sans-serif;  */
+  font-family: 'Roboto', sans-serif;
   color: #585858;
   font-size: 14px;
   overflow-x: hidden;
@@ -1045,6 +1051,8 @@ h6 {
     height:500px;
   } */
 
+  /* own  css*/
+
   .bg-home {
     /* background: url("../../assets/images/Hero section (1).png"); */
     background-image:none;
@@ -1052,15 +1060,7 @@ h6 {
     background-color:#fafafa !important;
     position: relative;
   }
-  .home-wrapper-alt{
-    display: table-cell; 
-    
-     vertical-align: middle;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-  
-  }
+ 
 }
 
 

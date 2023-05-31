@@ -8,6 +8,8 @@ import SectionTitle from "../common/section-title";
 import ServiceBox from "./service-box";
 import imageone from '../../assets/images/team/team1.jpg'
 // imports brands from '../../assets/images/team/c.png'
+
+import '../../assets/css/Own.css'
 class Services extends Component {
     state = {
         services1 : [
@@ -31,7 +33,8 @@ class Services extends Component {
     render() {
         return (
             <React.Fragment>
-    <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="services">
+    {/* <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="services"> */}
+    <section className='section' id="services">
 
      {/* <section className="section bg-lightgray" id="services"> */}
         <Container>

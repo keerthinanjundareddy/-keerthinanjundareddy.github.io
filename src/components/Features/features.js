@@ -30,9 +30,9 @@ import ai from  "../../assets/Ownimages/AI based Virtual Assistants.png"
 import retailzone from  "../../assets/Ownimages/AI based Virtual Assistants.png"
 import productsampling from  "../../assets/Ownimages/Immersive Retail Experience Zones.png"
 import vr from  "../../assets/Ownimages/VR AND AR.png"
-import interactivepanels from  "../../assets/Ownimages/Interactive Panels.png"
-import engaging from  "../../assets/Ownimages/Engaging contents.png"
-import digital from  "../../assets/Ownimages/Digital Takeaways.png"
+import interactivepanels from  "../../assets/Ownimages/Kiosk (3).png"
+import engaging from  "../../assets/Ownimages/Gallery (3).png"
+import digital from  "../../assets/Ownimages/Gallery-1.png"
 import samp from "../../assets/Ownimages/Immersive Product Sampling.png"
 
 
@@ -40,7 +40,8 @@ class Features extends Component {
     render() {
         return (
             <React.Fragment>
-    <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="features">
+    {/* <section className={this.props.isBgWhite === true ? "section" : "section bg-lightgray"} id="features"> */}
+    <section className='section bg-lightgray' id="features" >
         <Container>
             <Row>
                 <Col sm="12">
