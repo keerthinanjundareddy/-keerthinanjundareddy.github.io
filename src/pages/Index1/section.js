@@ -83,11 +83,11 @@ class Section extends Component {
                     {/* <Link to="#" className="btn btn-primary">Get Started <span className="ml-2 right-icon">&#8594;</span></Link> */}
 
 
-                    <h2 style={{fontSize:"20px",color:"grey"}}><span className=""  style={{fontSize:"35px",color:""}}>AYATANA</span><br/>Phygital Perfection:Where Innovation Meets Experience</h2><br />
+                    <h2 style={{fontSize:"20px"}}><span className=""  style={{fontSize:"35px",color:""}}>AYATANA</span><br/>Phygital Perfection:Where Innovation Meets Experience</h2><br />
                                               
-                                              <div className="">Ayatana is a phygital retail platform that uses AI to blend the physical and digital worlds. We offer brands a comprehensive suite of tools and capabilities to optimize their operations and engage customers in groundbreaking ways.</div> <br />
-                                              <div className="" >Whether you are a small boutique or a global brand, our platform can help you connect with your customers on a deeper level and achieve remarkable business results. Join us on this exciting journey as we redefine the future of retail through the fusion of physical and digital realms, guided by the power of AI.</div><br />
-                                              <h3>Welcome to the future of shopping. Welcome to Ayatana!</h3>
+                                              <div className="title-box">Ayatana is a phygital retail platform that uses AI to blend the physical and digital worlds. We offer brands a comprehensive suite of tools and capabilities to optimize their operations and engage customers in groundbreaking ways.</div> <br />
+                                              <div className="title-box" >Whether you are a small boutique or a global brand, our platform can help you connect with your customers on a deeper level and achieve remarkable business results. Join us on this exciting journey as we redefine the future of retail through the fusion of physical and digital realms, guided by the power of AI.</div><br />
+                                              <h3 style={{color:"#8F8F8F"}}>Welcome to the future of shopping. Welcome to Ayatana!</h3>
                                               
                   </Col>
                   <Col lg={6} md={10}>

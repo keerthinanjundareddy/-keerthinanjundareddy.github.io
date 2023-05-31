@@ -9,6 +9,8 @@ import logo from "../../assets/images/logo.png";
 import FooterLinks from "./footer-links";
 import LinkSection from "./link-section";
 
+import imagetwo from '../../assets/images/Ayatana (1).png';
+
 class Footer extends Component {
     state = {
         links1 : [
@@ -42,7 +44,8 @@ class Footer extends Component {
 
                             <Col md="4" sm="12">
                                 {/* <img src={logo} alt="logo" height="24" /> */}
-                                <div style={{color:"black",fontSize:"20px"}}>Ayatana</div>
+                                {/* <div style={{color:"black",fontSize:"20px"}}>Ayatana</div> */}
+                                <img src={ imagetwo }  style={{width:"300px",height:"200px"}} />
                                 <p className="margin-t-20">The digital marketing platform that connects small businesses with their target audience.</p>
 
                                 {/* <ul className="list-inline social">

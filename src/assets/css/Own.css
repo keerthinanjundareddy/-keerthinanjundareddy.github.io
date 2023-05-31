@@ -355,12 +355,16 @@ body{
 
     /* carousel css */
 
+    .carousel-control-prev {
+    color:black;
+    }
+
     .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 10px;
   width: 10px;
   /* color:red; */
-  background-color: blue;
+  /* background-color: blue; */
   /* outline: black; */
   /* background-size: 100%, 100%; */
   /* border-radius: 50%; */

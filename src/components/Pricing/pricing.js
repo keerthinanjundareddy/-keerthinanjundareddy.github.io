@@ -24,7 +24,7 @@ function Pricing(){
             // <React.Fragment>
     <section className="section " id="pricing" style={{paddingTop:"150px"}} >
       
-    
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -45,6 +45,7 @@ function Pricing(){
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
   </div>
     </section>
             // </React.Fragment>
