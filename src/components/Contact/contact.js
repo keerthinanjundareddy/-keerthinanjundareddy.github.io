@@ -48,7 +48,7 @@ class GetInTouch extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section" id="contact">
+        <section className="section bg-lightgray" id="contact">
           <Container>
             <Row>
               <Col sm="12">

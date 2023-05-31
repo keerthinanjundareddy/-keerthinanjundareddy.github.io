@@ -36,7 +36,7 @@ class Footer extends Component {
     render() {
         return (
             <React.Fragment>
-                <footer className="bg-lightgray footer">
+                <footer className="footer">
                     <Container>
                         <Row>
 
