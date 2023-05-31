@@ -10,7 +10,7 @@ const Services = React.lazy(() => import('../../components/Services/services'));
 // const Clients = React.lazy(() => import('../../components/Clients/clients'));
 const OurTeam = React.lazy(() => import('../../components/Team/our-team'));
 
-// const Counter = React.lazy(() => import('../../components/Counter/counter'));
+const Counter = React.lazy(() => import('../../components/Counter/counter'));
 const Contact = React.lazy(() => import('../../components/Contact/contact'));
 const Footer = React.lazy(() => import('../../components/Footer/footer'));
 
@@ -22,12 +22,15 @@ class Index1 extends Component {
                 { id: 1, idnm : "pricing", navheading: "Home" },
                 { id: 2, idnm : "home", navheading: "About Us" },
 
-                // { id: 7 , idnm : "Carousel", navheading: "Carousel" },
-                { id: 3 , idnm : "features", navheading: "Features" },
-                { id: 4 , idnm : "services", navheading: "Services" },
-                { id: 5, idnm : "team", navheading: "Team" },
+                { id: 3 , idnm : "counter", navheading: "Mission" },
+                { id: 4 , idnm : "features", navheading: "Features" },
+                { id: 5 , idnm : "services", navheading: "Services" },
+                { id: 6, idnm : "team", navheading: "Team" },
                
-                { id: 6, idnm : "contact", navheading: "Contact" },
+                { id: 7, idnm : "contact", navheading: "Contact" },
+               
+
+                
             ],
             pos : document.documentElement.scrollTop,
             imglight : true,
@@ -82,6 +85,8 @@ class Index1 extends Component {
                     {/* impo */}
                     {/* <Carousel /> */}
                     {/* Importing features */}
+
+                    <Counter/>
                     <Features isBgWhite={true}/>
 
                     {/* Importing services */}
@@ -97,7 +102,7 @@ class Index1 extends Component {
                
 
                     {/* Importing counter */}
-                    {/* <Counter/> */}
+               
 
                     {/* Importing contact */}
                     <Contact/>

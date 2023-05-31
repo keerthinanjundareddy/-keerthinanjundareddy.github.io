@@ -177,8 +177,8 @@ class Features extends Component {
                     </div>
                     </div>
                     <div  className='item-section-two'>
-                    <div style={{width:"100%",height:"25vh",paddingTop:"20px"}}><img src={interactivepanels} alt='images' style={{width:"100%",height:"100%",objectFit:"contain"}} /></div>
-                    <div style={{paddingLeft:"30px",paddingRight:"30px",paddingTop:"30px",paddingBottom:"30px"}}>
+                    <div style={{width:"100%",height:"30vh",padding:"30px"}}><img src={interactivepanels} alt='images' style={{width:"100%",height:"100%",objectFit:"contain"}} /></div>
+                    <div style={{paddingLeft:"30px",paddingRight:"30px",paddingBottom:"30px"}}>
                     <div><b style={{textAlign:"center",fontSize:"20px"}}>Interactive Panels</b></div>
                     <div>Transforming phygital stores with state-of-the-art interactive panels. Engage customers through intuitive touchscreens, dynamic content, and interactive experiences that revolutionize the way they explore and interact with products.</div>
                    

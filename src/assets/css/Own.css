@@ -266,23 +266,7 @@ body{
               background-color: aqua;
             
             }
-            .firstSlide{
-              text-align: center;
-              align-content: center;
-              left:40%;
-              font-size:15px;
-              bottom:15px;
-            }
-            .topfirstSlide{
-              text-align: center;
-              align-content: center;
-              left:35%;
-              font-size:10px;
-              /* top:90%;
-              left:50%;
-              transform: translate(-50%,-50%); */
-              color:blue;
-          }
+            
         }
 
 
@@ -310,7 +294,7 @@ body{
       
       
       @media screen and (max-width: 480px) {
-          .flexbox-container{
+          .flexbox-container-two{
               display:flex;
               flex-direction: column;
               width:100%;
@@ -322,6 +306,79 @@ body{
           
       
       }
+
+
+      /* mission css */
+
+
+      
+      .flexbox-container-three{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        margin: auto;
+        flex-wrap: wrap;
+        /* we can give anyting here based on mocks */
+        justify-content: space-around;
+    }
+    .item-section-three{
+        flex-basis:30%;
+            border: 1px solid #FAB1B1;
+            border-radius: 20px;
+            margin-top:50px;
+            padding: 30px;
+            margin-bottom:50px;
+
+            /* box-shadow:  2px lightgrey; */
+          /* text-align: center; */
+     
+    }
+    
+    
+    @media screen and (max-width: 480px) {
+        .flexbox-container-three{
+            display:flex;
+            flex-direction: column;
+            width:100%;
+        }
+    
+        .item-section-three{
+            flex-basis:100%;
+        }
+        
+    
+    }
+
+
+    /* carousel css */
+
+    .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  /* outline: black; */
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background-image: none;
+  /* visibility: hidden; */
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  color: black;
+}
+
+    
+    
       
       
       
