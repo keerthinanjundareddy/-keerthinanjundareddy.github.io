@@ -7,6 +7,7 @@ import React from 'react';
 //Import Pricing
 // import PricingBox from './pricing-box';
 import '../../assets/css/Own.css'
+// import '../../assets/css/New.scss'
 // import Carousel from 'react-bootstrap/Carousel';
 import one from "../../assets/images/Carosel 15.png";
 import two from "../../assets/images/Carosel 13.png";
@@ -22,19 +23,26 @@ function Pricing(){
     
         return (
             // <React.Fragment>
-    <section className="section " id="pricing" style={{paddingTop:"150px"}} >
+    <section className="section-five" id="pricing"  >
       
+    {/* <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"> */}
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100 "src={one} alt="First slide" />
+        <div className='cone'>
+        <img class="d-block w-100 "src={one} alt="First slide" className='cm-one'  />
+        </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 " src={two} alt="Second slide" />
+      <div className='ctwo'>
+        <img class="d-block w-100 " src={two} alt="Second slide" className='cm-two' />
+        </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 "   src={three} alt="Third slide" />
+      <div className='cthree'>
+        <img class="d-block w-100 "   src={three} alt="Third slide" className='cm-three'  />
+        </div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -46,7 +54,8 @@ function Pricing(){
       <span class="sr-only">Next</span>
     </a>
   </div>
-       </div>
+  </div>
+       {/* </div> */}
     </section>
             // </React.Fragment>
         )
