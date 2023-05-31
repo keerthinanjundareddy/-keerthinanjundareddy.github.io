@@ -47,7 +47,7 @@ class NavbarPage extends Component {
                                 <Container>
                                         <NavbarBrand className="logo text-uppercase" href="/">
                                             {/* <h3>AYATANA</h3> */}
-                                        <img src={logo} alt="logo" height="50" />
+                                        <img src={logo} alt="logo"  className="logos-icon"  height="80"  />
                                         
                                         </NavbarBrand>
                                         <NavbarToggler onClick={this.toggle} ><i className="ti-menu"></i></NavbarToggler>

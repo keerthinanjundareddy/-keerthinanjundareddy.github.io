@@ -8,7 +8,7 @@ const Pricing = React.lazy(() => import('../../components/Pricing/pricing'));
 const Features = React.lazy(() => import('../../components/Features/features'));
 const Services = React.lazy(() => import('../../components/Services/services'));
 // const Clients = React.lazy(() => import('../../components/Clients/clients'));
-const OurTeam = React.lazy(() => import('../../components/Team/our-team'));
+// const OurTeam = React.lazy(() => import('../../components/Team/our-team'));
 
 const Counter = React.lazy(() => import('../../components/Counter/counter'));
 const Contact = React.lazy(() => import('../../components/Contact/contact'));
@@ -25,9 +25,9 @@ class Index1 extends Component {
                 { id: 3 , idnm : "counter", navheading: "Mission" },
                 { id: 4 , idnm : "features", navheading: "Features" },
                 { id: 5 , idnm : "services", navheading: "Services" },
-                { id: 6, idnm : "team", navheading: "Team" },
+                // { id: 6, idnm : "team", navheading: "Team" },
                
-                { id: 7, idnm : "contact", navheading: "Contact" },
+                { id: 6, idnm : "contact", navheading: "Contact" },
                
 
                 
@@ -96,7 +96,7 @@ class Index1 extends Component {
                     {/* <Clients/> */}
 
                     {/* Importing team */}
-                    <OurTeam/>
+                    {/* <OurTeam/> */}
 
                     {/* Importing pricing */}
                
