@@ -62,21 +62,21 @@ class GetInTouch extends Component {
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-mobile"></i>
-                  <h5>123-456-789-0</h5>
+                  <h5>9900565911 </h5>
                 </div>
               </Col>
 
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-map-alt"></i>
-                  <h5>Bangalore</h5>
+                  <h5>APPRIKART DIGITAL SOLUTIONS PVT. LTD, NO 18 'CHUNCHA', 2ND FLOOR,  9TH MAIN ROAD, 2ND BLOCK, JAYANAGARA, BANGALORE 560011</h5>
                 </div>
               </Col>
 
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-email"></i>
-                  <h5>emailaddress@domain.com</h5>
+                  <h5>surender@renergii.com</h5>
                 </div>
               </Col>
             </Row>
