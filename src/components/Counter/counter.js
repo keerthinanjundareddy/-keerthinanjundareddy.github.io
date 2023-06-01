@@ -22,7 +22,7 @@ class Counter extends Component {
                     <Container>
                     {/* <Row> */}
                 {/* <Col sm="12"> */}
-                    <div className="text-center"  style={{textAlign:"center",fontSize:"30px",marginBottom:"10px"}}>
+                    <div className="text-center"  style={{textAlign:"center",fontSize:"30px",marginBottom:"40px"}}>
                         <b >Mission</b>
                     </div>
                 {/* </Col> */}

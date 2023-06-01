@@ -57,7 +57,7 @@ class Section extends Component {
             <React.Fragment>
             <section className=" sections bg-lightgray" id="home"  >
                  <div className="home-fullscreen" id="home-fullscreen" style={{height:"100%"}}>
-                    <h1 style={{textAlign:"center",paddingTop:"20px"}}>About Us</h1>
+                    <h1 style={{textAlign:"center",paddingTop:"20px",paddingBottom:"20px"}}>About Us</h1>
 
                 {/* <Container> */}
                     
