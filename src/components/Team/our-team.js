@@ -61,10 +61,12 @@ class OurTeam extends Component {
       <React.Fragment>
         <section className="section bg-lightgray" id="team">
           <Container>
-            <SectionTitle title1="Our Creative" title2="Team" />
+
+            <h1 style={{textAlign:"center"}}>OUR UPCOMING EVENTS</h1>
+            {/* <SectionTitle title1="Our Creative" title2="Team" /> */}
 
             <Row>
-              <TeamBox members={this.state.members} />
+              {/* <TeamBox members={this.state.members} /> */}
             </Row>
           </Container>
         </section>
