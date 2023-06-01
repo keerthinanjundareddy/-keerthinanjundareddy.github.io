@@ -9,9 +9,9 @@ import React from 'react';
 import '../../assets/css/Own.css'
 // import '../../assets/css/New.scss'
 // import Carousel from 'react-bootstrap/Carousel';
-import one from "../../assets/images/Carosel 15 (1).png";
-import two from "../../assets/images/Carosel 13.png";
-import three from "../../assets/images/Carosel 14.png";
+import one from "../../assets/images/Carosel 15 (3).png";
+import two from "../../assets/images/Carosel 13 (3).png";
+import three from "../../assets/images/Carosel 14 (3).png";
 
 // import Carousel from 'react-multi-carousel';
 // import 'react-multi-carousel/lib/styles.css';

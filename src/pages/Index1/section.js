@@ -16,7 +16,7 @@ import ModalSection from '../../components/common/ModalSection';
 //Import Image
 // import img1 from "../../assets/images/bg-home.jpg";
 
-import Backgrounds from '../../assets/images/yaa.png'
+import Backgrounds from '../../assets/images/ye.png'
 
 class Section extends Component {
     constructor() {
@@ -55,8 +55,9 @@ class Section extends Component {
     render() {
         return (
             <React.Fragment>
-            <section className=" section bg-lightgray" id="home"  >
+            <section className=" sections bg-lightgray" id="home"  >
                  <div className="home-fullscreen" id="home-fullscreen" style={{height:"100%"}}>
+                    <h1 style={{textAlign:"center",paddingTop:"20px"}}>About Us</h1>
 
                 {/* <Container> */}
                     
@@ -68,9 +69,9 @@ class Section extends Component {
 
                                        
                                     <Container>
-                <Row className="align-items-center justify-content-center">
+                <Row className=" " style={{paddingBottom:'20px'}}>
                
-                  <Col lg={6} style={{padding:'10px'}}>
+                  <Col lg={6} >
                     {/* <h1 className="display-4 font-weight-medium mb-4">Ayatana</h1> */}
                     {/* <h1 className="display-4 font-weight-medium mb-4">Phygital perfection:where innovation meets experience</h1> */}
                     {/* <h2 className="display-4 font-weight-medium mb-4"></h2> */}

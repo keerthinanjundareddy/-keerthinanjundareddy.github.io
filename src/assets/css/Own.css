@@ -482,8 +482,8 @@ body{
 
     /* crousel css */
 
-    .cone{
-      height:90vh;
+     .cone{
+      height:80vh;
       width:100%;
     }
 
@@ -494,7 +494,7 @@ body{
     }
 
     .ctwo{
-      height:90vh;
+      height:80vh;
       width:100%;
     }
 
@@ -505,7 +505,7 @@ body{
     }
 
     .cthree{
-      height:90vh;
+      height:80vh;
       width:100%;
     }
 
@@ -523,7 +523,7 @@ body{
     @media screen and (max-width: 480px) {
 
       .cone{
-        height:45vh;
+        height:40vh;
         width:100%;
         
       }
@@ -532,11 +532,11 @@ body{
         height:100%;
         width: 100%;
         object-fit: contain;
-        /* margin-top: -25vh; */
+      
         
       }
       .ctwo{
-        height:45vh;
+        height:40vh;
         width:100%;
       }
   
@@ -546,7 +546,7 @@ body{
         object-fit: contain;
       }
       .cthree{
-        height:45vh;
+        height:40vh;
         width:100%;
       }
   
@@ -555,4 +555,4 @@ body{
         width: 100%;
         object-fit: contain;
       }
-    }
+    } 
