@@ -140,7 +140,7 @@ class Features extends Component {
                     <div style={{width:"100%",height:"30vh"}}><img src={ai} alt="ai" style={{width:"100%",height:"100%",objectFit:"contain"}} /></div>
                     <div style={{paddingLeft:"30px",paddingRight:"30px",paddingBottom:"30px"}}>
                     <div><b style={{textAlign:"center",fontSize:"20px"}}>AI based Virtual Assistants</b></div>
-                    <div>Our proprietary AI-based virtual assistants augment sales consultants with personalized recommendations, 24/7 availability, and data-driven insights, enhancing customer engagement and boosting sales performance.</div>
+                    <div >Our proprietary AI-based virtual assistants augment sales consultants with personalized recommendations, 24/7 availability, and data-driven insights, enhancing customer engagement and boosting sales performance.</div>
                    
                     </div>
                     </div>

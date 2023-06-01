@@ -86,14 +86,14 @@ class Section extends Component {
 
                     <h2  style={{fontSize:"25px",color:""}}>AYATANA </h2>
                                               
-                                              <div className="title-box">Ayatana is a phygital retail platform that uses AI to blend the physical and digital worlds. We offer brands a comprehensive suite of tools and capabilities to optimize their operations and engage customers in groundbreaking ways.</div> <br />
-                                              <div className="title-box" >Whether you are a small boutique or a global brand, our platform can help you connect with your customers on a deeper level and achieve remarkable business results. Join us on this exciting journey as we redefine the future of retail through the fusion of physical and digital realms, guided by the power of AI.</div><br />
+                                              <div className="">Ayatana is a phygital retail platform that uses AI to blend the physical and digital worlds. We offer brands a comprehensive suite of tools and capabilities to optimize their operations and engage customers in groundbreaking ways.</div> <br />
+                                              <div className="" >Whether you are a small boutique or a global brand, our platform can help you connect with your customers on a deeper level and achieve remarkable business results. Join us on this exciting journey as we redefine the future of retail through the fusion of physical and digital realms, guided by the power of AI.</div><br />
                                               <h3 style={{color:"#8F8F8F"}}>Welcome to the future of shopping. Welcome to Ayatana!</h3>
                                               
                   </Col>
 
                   <Col lg={6} md={10}>
-                    <div className=" mt-5 mt-lg-0" >
+                    <div className=" mt-0 mt-lg-0" >
                       <img src={Backgrounds} alt="" className="img-fluid d-block mx-auto" />
                     </div>
                   </Col>

@@ -23,8 +23,8 @@ class ServiceBox extends Component {
                             {/* <div>hi</div> */}
                            {/* <div><img src={service.icon} alt={service.title} /></div>  */}
                            <div>
-                            <div style={{fontSize:"20px"}}><b>{service.title}</b></div>
-                            <div>{service.desc}</div>
+                            <div style={{fontSize:"18px"}}><b>{service.title}</b></div>
+                            <div  style={{fontSize:"15px"}}>{service.desc}</div>
                             </div>
                             </div>
                         </div>

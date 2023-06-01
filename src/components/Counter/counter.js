@@ -20,20 +20,20 @@ class Counter extends Component {
             <React.Fragment>
                 <section className="section  " id="counter">
                     <Container>
-                    <Row>
-                <Col sm="12">
-                    <div className="title-box text-center">
-                        <h2 >Mission</h2>
+                    {/* <Row> */}
+                {/* <Col sm="12"> */}
+                    <div className="text-center"  style={{textAlign:"center",fontSize:"30px",marginBottom:"10px"}}>
+                        <b >Mission</b>
                     </div>
-                </Col>
-                </Row>
-                <Row>
-                <Col sm="12">
-                    <div className="title-box text-center">
-                        <div  style={{fontSize:"20px"}} >We help brands create Phygital stores that combine the physical and digital worlds to create a more immersive, engaging, and efficient shopping experience for customers. We use AI to power a variety of phygital experiences, including:</div>
-                    </div>
-                </Col>
-                </Row>
+                {/* </Col> */}
+                {/* </Row> */}
+                {/* <Row> */}
+                {/* <Col sm="12"> */}
+                    {/* <div className="text-center"> */}
+                        <div  style={{fontSize:"18px"}} >We help brands create Phygital stores that combine the physical and digital worlds to create a more immersive, engaging, and efficient shopping experience for customers. We use AI to power a variety of phygital experiences, including:</div>
+                    {/* </div> */}
+                {/* </Col> */}
+                {/* </Row> */}
 
 
 
@@ -45,8 +45,8 @@ class Counter extends Component {
                     <div className='content-flexbox-container'>
                     <div ><img src={productrec} alt="icons" /></div>
                     <div>
-                    <div style={{fontSize:"23px"}} ><b>	Product recommendations</b></div>
-                    <div>We use AI to recommend products that customers are likely to love.</div>
+                    <div style={{fontSize:"18px"}} ><b>	Product recommendations</b></div>
+                    <div style={{fontSize:"15px"}}>We use AI to recommend products that customers are likely to love.</div>
                     </div>
                     </div>
                    
@@ -58,8 +58,8 @@ class Counter extends Component {
                     <div className='content-flexbox-container-two'>
                     <div ><img src={productvis} alt="icons" /></div>
                     <div>
-                    <div style={{fontSize:"23px"}}><b >Product Visualization</b></div>
-                    <div>We use AI to create virtual experiences that allow customers to try products before they buy them. It could be Virtual try-on of clothes, Furniture visualization at home, Car 360 views to name few.</div>
+                    <div style={{fontSize:"20px"}}><b >Product Visualization</b></div>
+                    <div style={{fontSize:"15px"}}>We use AI to create virtual experiences that allow customers to try products before they buy them. It could be Virtual try-on of clothes, Furniture visualization at home, Car 360 views to name few.</div>
                     </div>
                     </div>
                     {/* </div> */}
@@ -71,8 +71,8 @@ class Counter extends Component {
                     <div className='content-flexbox-container-three'>
                     <div><img src={cus} alt="icons" /></div>
                     <div>
-                    <div style={{fontSize:"23px"}} ><b>Customer service</b></div>
-                    <div>We use AI to answer customer questions, resolve customer complaints, and provide other customer service support.</div>
+                    <div style={{fontSize:"20px"}} ><b>Customer service</b></div>
+                    <div style={{fontSize:"15px"}}>We use AI to answer customer questions, resolve customer complaints, and provide other customer service support.</div>
                     </div>
                     </div>
                     {/* </div> */}
@@ -83,11 +83,11 @@ class Counter extends Component {
 
 
       <Row>
-                <Col sm="12">
-                    <div className="title-box text-center">
-                        <div  style={{fontSize:"20px"}} className='bottoms-section'>We believe in phygital retail and help brands create unforgettable shopping experiences</div>
+                {/* <Col sm="12"> */}
+                    <div >
+                        <div  style={{fontSize:"18px",textAlign:"center"}} className='bottoms-section'>We believe in phygital retail and help brands create unforgettable shopping experiences</div>
                         </div>
-                </Col>
+                {/* </Col> */}
                 </Row>
 
 

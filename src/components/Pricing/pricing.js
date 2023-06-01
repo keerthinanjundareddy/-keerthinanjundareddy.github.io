@@ -9,7 +9,7 @@ import React from 'react';
 import '../../assets/css/Own.css'
 // import '../../assets/css/New.scss'
 // import Carousel from 'react-bootstrap/Carousel';
-import one from "../../assets/images/Carosel 15.png";
+import one from "../../assets/images/Carosel 15 (1).png";
 import two from "../../assets/images/Carosel 13.png";
 import three from "../../assets/images/Carosel 14.png";
 
@@ -26,7 +26,7 @@ function Pricing(){
     <section className="section-five" id="pricing"  >
       
     {/* <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"> */}
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleLight" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">

@@ -334,7 +334,7 @@ body{
      
     }
     .bottoms-section{
-      margin-top: 50px;
+      margin-top: 20px;
     }
     
     
@@ -523,7 +523,7 @@ body{
     @media screen and (max-width: 480px) {
 
       .cone{
-        height:25vh;
+        height:45vh;
         width:100%;
         
       }
@@ -536,7 +536,7 @@ body{
         
       }
       .ctwo{
-        height:25vh;
+        height:45vh;
         width:100%;
       }
   
@@ -546,7 +546,7 @@ body{
         object-fit: contain;
       }
       .cthree{
-        height:25vh;
+        height:45vh;
         width:100%;
       }
   
