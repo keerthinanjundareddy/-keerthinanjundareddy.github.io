@@ -26,9 +26,9 @@ class Index1 extends Component {
                 { id: 4 , idnm : "features", navheading: "Features" },
                 { id: 5 , idnm : "services", navheading: "Services" },
       
-               
-                { id: 6, idnm : "contact", navheading: "Contact" },
                 { id: 6, idnm : "team", navheading: "Upcoming events" },
+                { id: 7, idnm : "contact", navheading: "Contact" },
+               
                
 
                 
@@ -104,11 +104,11 @@ class Index1 extends Component {
 
                     {/* Importing counter */}
                
-
+                    <OurTeam/>
                     {/* Importing contact */}
                     <Contact/>
 
-                      <OurTeam/>
+                      
 
                     {/* Importing footer */}
                     <Footer/>

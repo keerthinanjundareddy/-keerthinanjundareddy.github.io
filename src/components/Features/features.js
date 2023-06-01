@@ -46,7 +46,7 @@ class Features extends Component {
             <Row>
                 <Col sm="12">
                     <div className="title-box text-center">
-                        <h2 >Our Features</h2>
+                        <div style={{fontSize:"30px"}}><b>Our Features</b></div>
                     </div>
                 </Col>
             </Row>

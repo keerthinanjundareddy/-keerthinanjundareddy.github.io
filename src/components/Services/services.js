@@ -38,7 +38,7 @@ class Services extends Component {
 
      {/* <section className="section bg-lightgray" id="services"> */}
         <Container>
-            <SectionTitle title1="Why Ayatana"   />          
+            <SectionTitle title1="Why Ayatana" />          
 
             <Row >
                 <ServiceBox services={this.state.services1} />                

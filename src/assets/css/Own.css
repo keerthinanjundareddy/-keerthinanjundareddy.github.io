@@ -556,3 +556,35 @@ body{
         object-fit: contain;
       }
     } 
+
+
+    /* team css */
+    .event-sect{
+      font-size: 20px;
+    }
+    .comming-sec{
+    font-size:50px;
+    margin-top:20px;
+    letter-spacing:2px;
+    color:"";
+    }
+    .phygital-hed{
+     font-size:25px;
+     letter-spacing:4px;
+     color: #f56363;
+    }
+    .know-hed{
+      font-size:20px;
+      letter-spacing:2px;
+    }
+   .click-hed{
+    font-size:15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border:1px solid #f56363;
+    /* background-color: white; */
+    padding:10px;
+    border-radius: 5px;
+    color:#f56363
+   
+   }

@@ -48,12 +48,12 @@ class GetInTouch extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section bg-lightgray" id="contact">
+        <section className="section" id="contact">
           <Container>
             <Row>
               <Col sm="12">
                 <div className="title-box text-center">
-                  <h2>Have any questions?</h2>
+                  <div style={{fontSize:"30px"}}><b>Have any questions?</b></div>
                 </div>
               </Col>
             </Row>

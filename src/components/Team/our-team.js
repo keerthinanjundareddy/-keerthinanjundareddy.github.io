@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Container, Row } from "reactstrap";
+import { Container, Row,Col} from "reactstrap";
 
 //Import Components
 import SectionTitle from "../../components/common/section-title";
 
 //Import Team Box
 import TeamBox from "./team-box";
+import '../../assets/css/Own.css'
 
 //Import Images
 import team1 from "../../assets/images/team/team1.jpg";
@@ -62,8 +63,35 @@ class OurTeam extends Component {
         <section className="section bg-lightgray" id="team">
           <Container>
 
-            <h1 style={{textAlign:"center"}}>OUR UPCOMING EVENTS</h1>
-            {/* <SectionTitle title1="Our Creative" title2="Team" /> */}
+
+          <Row>
+                <Col sm="12">
+                    <div className="title-box text-center">
+                        <div  className="event-sect" ><b> Upcoming Events</b></div>
+
+                        <div  className="comming-sec">COMING SOON</div>
+                        
+                        <div  className="phygital-hed"><b>PHYGITAL SANTHE</b></div>
+
+                        <div className="know-hed">To Know More</div>
+
+                        <button  className="click-hed"><a href="" >Click here</a></button>
+                    </div>
+                </Col>
+            </Row>
+
+            {/* <div style={{textAlign:"center",fontSize:"30px"}}><b>OUR UPCOMING EVENTS</b></div> */}
+
+            {/* <div style={{textAlign:"center",fontSize:"20px"}}>Phygital santhe</div> */}
+
+            {/* <div style={{textAlign:"center",}}>Comming soon </div> */}
+
+            {/* <div style={{textAlign:"center"}}>Read more</div> */}
+
+
+            {/* <div style={{textAlign:"center"}}>Discover Phygital Santhe Website Here </div> */}
+                                 {/* <button style={{ border:"none",outline:"none",border:"1px solid #f56363",backgroundColor:"#f56363",borderRadius:"20px",color:"white",width:"300px",height:"40px",textAlign:"center"}}><a href="https://incomparable-hamster-92fd22.netlify.app/"  target="_parent" style={{color:"white"}}><b>EXPLORE PHYGITAL</b></a></button>  */}
+             {/* <SectionTitle title1="Our Creative" title2="Team" />  */}
 
             <Row>
               {/* <TeamBox members={this.state.members} /> */}
