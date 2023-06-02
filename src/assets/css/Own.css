@@ -582,9 +582,24 @@ body{
     cursor: pointer;
     margin-top: 10px;
     border:1px solid #f56363;
+    background-color: #fafafa;
     /* background-color: white; */
     padding:10px;
     border-radius: 5px;
     color:#f56363
    
+   }
+
+
+   /* contact form css */
+
+   .submit-contact-btn{
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    background-color: #f56363 ;
+    color:white;
+    padding:10px;
+    padding-right: 50px;
+    padding-left: 50px;
    }

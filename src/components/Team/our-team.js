@@ -76,7 +76,7 @@ class OurTeam extends Component {
                         <div className="know-hed">To Know More</div>
                           {/* <button style={{ border:"none",outline:"none",border:"1px solid #f56363",backgroundColor:"#f56363",borderRadius:"20px",color:"white",width:"300px",height:"40px"}}><a href="https://incomparable-hamster-92fd22.netlify.app/"  target="_blank" style={{color:"white"}}><b>EXPLORE PHYGITAL</b></a></button> */}
 
-                        <button  className="click-hed" style={{color:"white"}}><a href="" style={{color:" #f56363"}} >Click here</a></button>
+                        <button  className="click-hed" style={{color:"white",cursor:"pointer"}}><a href="https://incomparable-hamster-92fd22.netlify.app/" target="_self" style={{color:" #f56363",cursor:"pointer"}} >Click here</a></button>
                     </div>
                 </Col>
             </Row>

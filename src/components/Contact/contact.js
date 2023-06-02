@@ -1,51 +1,116 @@
 import React, { Component } from "react";
+import { useState } from 'react';
 import { Container, Row, Col } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
 import { Animated } from "react-animated-css";
+import axios from 'axios'
 
-class GetInTouch extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      firstname: "",
-      email: "",
-      subject: "",
-      comments: "",
-      msgSendSuccess: false,
-    };
-  }
+function  GetInTouch() {
 
-  handleSubmit = () => {
-    let emailPattern = new RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     firstname: "",
+  //     email: "",
+  //     subject: "",
+  //     comments: "",
+  //     msgSendSuccess: false,
+  //   };
+  // }
 
-    if (
-      this.state.firstname !== "" &&
-      this.state.email !== "" &&
-      emailPattern.test(this.state.email) &&
-      this.state.subject !== "" &&
-      this.state.comments !== ""
-    ) {
-      this.setState({ msgSendSuccess: true });
-      this.myFormRef.reset();
+  // handleSubmit = () => {
+  //   let emailPattern = new RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
 
-      setTimeout(() => {
-        this.setState({ firstname: "" });
-        this.setState({ email: "" });
-        this.setState({ subject: "" });
-        this.setState({ comments: "" });
-        this.setState({ msgSendSuccess: false });
-      }, 5000);
-    }
-  };
+  //   if (
+  //     this.state.firstname !== "" &&
+  //     this.state.email !== "" &&
+  //     emailPattern.test(this.state.email) &&
+  //     this.state.subject !== "" &&
+  //     this.state.comments !== ""
+  //   ) {
+  //     this.setState({ msgSendSuccess: true });
+  //     this.myFormRef.reset();
 
-  onInputChangeHandlar = (event) => {
-    const value = event.target.value;
-    const name = event.target.name;
+  //     setTimeout(() => {
+  //       this.setState({ firstname: "" });
+  //       this.setState({ email: "" });
+  //       this.setState({ subject: "" });
+  //       this.setState({ comments: "" });
+  //       this.setState({ msgSendSuccess: false });
+  //     }, 5000);
+  //   }
+  // };
 
-    this.setState({ [name]: value });
-  };
+  // onInputChangeHandlar = (event) => {
+  //   const value = event.target.value;
+  //   const name = event.target.name;
 
-  render() {
+  //   this.setState({ [name]: value });
+  // };
+
+  // render() {
+    const[name,setName]=useState("")
+    const[phone,setPhone]=useState("")
+    const[subject,setSubject]=useState("")
+    const[message,setMessage]=useState("")
+
+
+   function handleSubmit(e)
+   {
+    e.preventDefault();
+
+    const formDatas = new FormData();
+        formDatas.append("name", name);
+        // formDatas.append("email", email);
+        formDatas.append("phone_number", phone);
+        formDatas.append("message", subject);
+        formDatas.append("message", message);
+
+        for (var key of formDatas.entries()) {
+          console.log(key[0] + ', ' + key[1]);
+      }
+
+      const headerObject = {
+        'Content-Type':'multipart/form-data',
+        "Accept":"*/*",
+        // "Access-Control-Allow-Origin": "*",
+      }
+
+      const formDataApi="http://sales.apprikart.com/core/api/insert_enquiry/";
+      
+
+      axios.post(formDataApi,formDatas,{headers: headerObject})
+              .then((res) =>{
+
+                  console.log("res",res.data)
+                  // window.alert(res.data.msg)
+
+
+                  if(res.data.status === "success"){
+
+                    window.alert("your message will be attended soon by our team!")
+
+                }else{
+                    window.alert(res.data.msg)
+
+                }
+
+
+                }).catch((err)=>{
+                   
+                  console.log("err.message", err.message)
+
+                  
+
+
+                })
+    
+
+
+
+   } 
+
+  
     return (
       <React.Fragment>
         <section className="section" id="contact">
@@ -83,7 +148,7 @@ class GetInTouch extends Component {
 
             <Row>
               <Col sm="12">
-                <h4>Send us a message!</h4>
+                {/* <h4>Send us a message!</h4>
                 <div id="message">
                   {this.state.msgSendSuccess ? (
                     <Animated
@@ -104,52 +169,59 @@ class GetInTouch extends Component {
                       </fieldset>
                     </Animated>
                   ) : null}
-                </div>
+                </div> */}
+                <form onSubmit={handleSubmit}>
                 <AvForm
                   name="cform"
                   id="cform"
                   className="contact-form margin-t-20"
-                  ref={(el) => (this.myFormRef = el)}
-                  onSubmit={(e) => this.handleSubmit(e)}
+                  // ref={(el) => (this.myFormRef = el)}
+                  // onSubmit={(e) => this.handleSubmit(e)}
                 >
                   <Row>
                     <Col sm="4">
                       <AvField
                         name="firstname"
-                        placeholder="Your name*..."
+                        placeholder="Your name"
                         type="text"
                         errorMessage="Enter Your Name"
                         className="form-control"
-                        validate={{ required: { value: true } }}
-                        id="name"
-                        onChange={(e) => this.onInputChangeHandlar(e)}
+                        // validate={{ required: { value: true } }}
+                        // id="name"
+                        value={name}
+                        onChange={(e)=>setName(e.target.value)}
+                        required
                       />
                     </Col>
                     <Col sm="4">
                       <AvField
                         name="email"
-                        placeholder="Your email*..."
+                        placeholder="Your Phone number"
                         type="text"
-                        errorMessage="Enter Your Email"
+                        errorMessage="Enter Your Phone number"
                         className="form-control"
-                        validate={{
-                          required: { value: true },
-                          email: { value: true },
-                        }}
-                        id="email"
-                        onChange={(e) => this.onInputChangeHandlar(e)}
+                        // validate={{
+                          // required: { value: true },
+                          // email: { value: true },
+                        // }}
+                        // id="email"
+                        value={phone}
+                        onChange={(e)=>setPhone(e.target.value)}
+                        required
                       />
                     </Col>
                     <Col sm="4">
                       <AvField
                         name="subject"
-                        placeholder="Your Subject*..."
+                        placeholder="Your Subject"
                         type="text"
                         errorMessage="Enter Your Subject"
                         className="form-control"
-                        validate={{ required: { value: true } }}
-                        id="subject"
-                        onChange={(e) => this.onInputChangeHandlar(e)}
+                        // validate={{ required: { value: true } }}
+                        // id="subject"
+                        // onChange={(e) => this.onInputChangeHandlar(e)}
+                        value={subject}
+                        onChange={(e)=>setSubject(e.target.value)}
                       />
                     </Col>
                   </Row>
@@ -158,38 +230,58 @@ class GetInTouch extends Component {
                       <AvField
                         type="textarea"
                         name="comments"
-                        id="comments"
+                        // id="comments"
                         rows="4"
                         className="form-control"
-                        placeholder="Your message*..."
-                        errorMessage="Enter your message."
-                        validate={{ required: { value: true } }}
-                        onChange={(e) => this.onInputChangeHandlar(e)}
+                        placeholder="Your message"
+                        // errorMessage="Enter your message."
+                        // validate={{ required: { value: true } }}
+                        // onChange={(e) => this.onInputChangeHandlar(e)}
+                        value={message}
+                        onChange={(e)=>setMessage(e.target.value)}
                       />
                     </Col>
                   </Row>
 
-                  <Row>
-                    <Col sm="12" className="text-right">
-                      <input
+                  {/* <Row> */}
+                    {/* <Col sm="12" className="text-right"> */}
+                      {/* <input
                         type="submit"
                         id="submit"
                         name="send"
                         className="submitBnt btn  btn-custom"
                         value="Send Message"
-                      />
+                      /> */}
+                    {/* </Col> */}
+                  {/* </Row> */}
+
+                  {/* my code */}
+                  <Row>
+                    <Col sm="12" className="text-right">
+                      {/* <input
+                        type="submit"
+                        id="submit"
+                        name="send"
+                        className="submitBnt btn  btn-custom"
+                        value="Send Message"
+                      /> */}
+                      <div style={{textAlign:"center"}}>
+                      <button className="submit-contact-btn" >submit</button>
+                      </div>
                     </Col>
                   </Row>
 
+
                   <div id="simple-msg"></div>
                 </AvForm>
+                </form>
               </Col>
             </Row>
           </Container>
         </section>
       </React.Fragment>
     );
-  }
-}
+                    }
+
 
 export default GetInTouch;
