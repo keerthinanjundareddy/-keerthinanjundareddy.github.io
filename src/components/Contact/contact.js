@@ -59,14 +59,14 @@ function  GetInTouch() {
    {
     e.preventDefault();
 
-    const formDatas = new FormData();
-        formDatas.append("name", name);
+    const formDataTwo = new FormData();
+    formDataTwo.append("name", name);
         // formDatas.append("email", email);
-        formDatas.append("phone_number", phone);
-        formDatas.append("message", subject);
-        formDatas.append("message", message);
+        formDataTwo.append("phone_number", phone);
+        formDataTwo.append("message", subject);
+        formDataTwo.append("message", message);
 
-        for (var key of formDatas.entries()) {
+        for (var key of formDataTwo.entries()) {
           console.log(key[0] + ', ' + key[1]);
       }
 
@@ -79,7 +79,7 @@ function  GetInTouch() {
       const formDataApi="http://sales.apprikart.com/core/api/insert_enquiry/";
       
 
-      axios.post(formDataApi,formDatas,{headers: headerObject})
+      axios.post(formDataApi,formDataTwo,{headers: headerObject})
               .then((res) =>{
 
                   console.log("res",res.data)
