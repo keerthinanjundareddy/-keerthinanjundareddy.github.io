@@ -71,7 +71,7 @@ class OurTeam extends Component {
 
                         <div  className="comming-sec">COMING SOON</div>
                         
-                        <div  className="phygital-hed"><b>PHYGITAL SANTHE</b></div>
+                        <div  className="phygital-hed"><b>PHYGITAL RETAIL EVENT</b></div>
 
                         <div className="know-hed">To Know More</div>
                           {/* <button style={{ border:"none",outline:"none",border:"1px solid #f56363",backgroundColor:"#f56363",borderRadius:"20px",color:"white",width:"300px",height:"40px"}}><a href="https://incomparable-hamster-92fd22.netlify.app/"  target="_blank" style={{color:"white"}}><b>EXPLORE PHYGITAL</b></a></button> */}
