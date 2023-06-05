@@ -127,14 +127,14 @@ function  GetInTouch() {
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-mobile"></i>
-                  <h5>9900565911 </h5>
+                  <h5>+91 9900565911 </h5>
                 </div>
               </Col>
 
               <Col sm="4">
                 <div className="contact-footer-box text-center">
                   <i className="ti-map-alt"></i>
-                  <h5>APPRIKART DIGITAL SOLUTIONS PVT. LTD, NO 18 'CHUNCHA', 2ND FLOOR,  9TH MAIN ROAD, 2ND BLOCK, JAYANAGARA, BANGALORE 560011</h5>
+                  <h5> No 18 'Chuncha', 2nd floor,  9th main road, 2nd block, jayanagara, bangalore 560011</h5>
                 </div>
               </Col>
 

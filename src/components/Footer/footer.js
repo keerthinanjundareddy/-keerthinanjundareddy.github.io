@@ -46,7 +46,7 @@ class Footer extends Component {
                                 {/* <img src={logo} alt="logo" height="24" /> */}
                                 {/* <div style={{color:"black",fontSize:"20px"}}>Ayatana</div> */}
                                 <img src={ imagetwo }  style={{width:"300px",height:"200px"}} />
-                                <p className="margin-t-20">The digital marketing platform that connects small businesses with their target audience.</p>
+                                {/* <p className="margin-t-20">The digital marketing platform that connects small businesses with their target audience.</p> */}
 
                                 {/* <ul className="list-inline social">
                                     {
