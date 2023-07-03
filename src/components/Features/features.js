@@ -204,7 +204,7 @@ class Features extends Component {
                     <div style={{width:"100%",height:"30vh",paddingTop:"10px"}}><img src={digital} alt='images' style={{width:"100%",height:"100%",objectFit:"contain"}} /></div>
                     <div style={{paddingLeft:"30px",paddingRight:"30px",paddingBottom:"30px",paddingTop:"30px"}}>
                     <div><b style={{textAlign:"center",fontSize:"20px"}}>Digital Takeaways</b></div>
-                    <div>Enhancing the phygital store experience, we provide convenient digital takeaways in the form of brochures and links. Users can simply scan a QR code to access valuable information, product details, and promotional offers, allowing them to carry personalized digital content with them, even after leaving the store.</div>
+                    <div>Transforming phygital stores with state-of-the-art interactive panels. Engage customers through intuitive touchscreens, dynamic content, and interactive experiences that revolutionize the way they explore and interact with products.</div>
                     {/* <div></div> */}
                     {/* <button className='favourite-btn' >Add to favourites</button> */}
                     </div>

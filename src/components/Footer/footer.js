@@ -9,7 +9,7 @@ import logo from "../../assets/images/logo.png";
 import FooterLinks from "./footer-links";
 import LinkSection from "./link-section";
 
-import imagetwo from '../../assets/images/Ayatana (4).png';
+import imagetwo from '../../assets/images/ayaone.png';
 
 class Footer extends Component {
     state = {

@@ -17,7 +17,7 @@ import '../../../node_modules/react-sticky-header/styles.css';
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logo from "../../assets/images/Ayatana (3).png";
+import logo from "../../assets/images/ayaone.png";
 
 class NavbarPage extends Component {
     constructor(props){
