@@ -235,7 +235,7 @@ h6 {
 
 /* Background images css */
 .bg-home {
-  background: url("../images/img-1.jpg");
+  /* background: url("../images/img-1.jpg"); */
   background-size: cover;
   background-color: #222328;
   position: relative;

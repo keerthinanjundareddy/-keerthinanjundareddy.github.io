@@ -6,7 +6,7 @@ import SectionTitle from "../common/section-title";
 
 //Import Service Box
 import ServiceBox from "./service-box";
-import imageone from '../../assets/images/team/team1.jpg'
+// import imageone from '../../assets/images/team/team1.jpg'
 // imports brands from '../../assets/images/team/c.png'
 
 import '../../assets/css/Own.css'

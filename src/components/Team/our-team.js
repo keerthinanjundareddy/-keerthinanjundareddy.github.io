@@ -9,9 +9,9 @@ import TeamBox from "./team-box";
 import '../../assets/css/Own.css'
 
 //Import Images
-import team1 from "../../assets/images/team/team1.jpg";
-import team2 from "../../assets/images/team/team2.jpg";
-import team3 from "../../assets/images/team/team3.jpg";
+// import team1 from "../../assets/images/team/team1.jpg";
+// import team2 from "../../assets/images/team/team2.jpg";
+// import team3 from "../../assets/images/team/team3.jpg";
 
 class OurTeam extends Component {
   state = {
@@ -19,7 +19,7 @@ class OurTeam extends Component {
       {
         id: 1,
         name: "Andrew Sparks",
-        image: team1,
+        // image: team1,
         post: "CEO/Founder",
         desc:
           "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.",
@@ -32,7 +32,7 @@ class OurTeam extends Component {
       {
         id: 2,
         name: "Hubert Brandt",
-        image: team2,
+        // image: team2,
         post: "CTO/Co-Founder",
         desc:
           "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.",
@@ -45,7 +45,7 @@ class OurTeam extends Component {
       {
         id: 3,
         name: "David Downs",
-        image: team3,
+        // image: team3,
         post: "Web Designer",
         desc:
           "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.",
@@ -76,7 +76,7 @@ class OurTeam extends Component {
                         <div className="know-hed">To Know More</div>
                           {/* <button style={{ border:"none",outline:"none",border:"1px solid #f56363",backgroundColor:"#f56363",borderRadius:"20px",color:"white",width:"300px",height:"40px"}}><a href="https://incomparable-hamster-92fd22.netlify.app/"  target="_blank" style={{color:"white"}}><b>EXPLORE PHYGITAL</b></a></button> */}
 
-                        <button  className="click-hed" style={{color:"white",cursor:"pointer"}}><a href="https://zestzone.netlify.app/" target="_self" style={{color:" #f56363",cursor:"pointer"}} >Click here</a></button>
+                        <button  className="click-hed" style={{color:"white",cursor:"pointer"}}><a href="http://ayatana.world/zestzone" target="_self" style={{color:" #f56363",cursor:"pointer"}} >Click here</a></button>
                     </div>
                 </Col>
             </Row>

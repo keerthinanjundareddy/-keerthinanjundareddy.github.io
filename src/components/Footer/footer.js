@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
 //Import Logo
-import logo from "../../assets/images/logo.png";
+// import logo from "../../assets/images/logo.png";
 
 //Import Footer link
 import FooterLinks from "./footer-links";

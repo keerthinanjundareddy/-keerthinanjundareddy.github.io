@@ -2,38 +2,38 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from "reactstrap";
 import '../../assets/css/style.css'
 //Import Images
-import mac from "../../assets/images/mac.png";
-import watch1 from "../../assets/images/watch-1.png";
-import FeatureBox from '../common/feature-box';
-import Kioskimage from "../../assets/images/kioskimage.jpg"
-import Vrar from "../../assets/images/Vrar.JPG"
-import Qrimage from "../../assets/images/Qrimage.jpeg"
-import kiosks from "../../assets/images/kiosk-image.jpg"
-import thumb from "../../assets/images/thumb.jpg"
-import multimedia from "../../assets/images/kiosk-white.jpg"
-import thumbs from "../../assets/images/thumb(1).jpg"
-import qrcodes from "../../assets/images/qrcodes.jpg"
-import Picture1 from "../../assets/images/Picture1.png"
+// import mac from "../../assets/images/mac.png";
+// import watch1 from "../../assets/images/watch-1.png";
+// import FeatureBox from '../common/feature-box';
+// import Kioskimage from "../../assets/images/kioskimage.jpg"
+// import Vrar from "../../assets/images/Vrar.JPG"
+// import Qrimage from "../../assets/images/Qrimage.jpeg"
+// import kiosks from "../../assets/images/kiosk-image.jpg"
+// import thumb from "../../assets/images/thumb.jpg"
+// import multimedia from "../../assets/images/kiosk-white.jpg"
+// import thumbs from "../../assets/images/thumb(1).jpg"
+// import qrcodes from "../../assets/images/qrcodes.jpg"
+// import Picture1 from "../../assets/images/Picture1.png"
 
 import '../../assets/css/Own.css'
 
 
 // import Scanner from "../../assets/images/Scanner.png"
-import vrnew from "../../assets/images/VR (3).png"
-import Gallery from "../../assets/images/video.png"
-import Mobilescanner from "../../assets/images/Mobile scanner.png"
-import digitalkiosk from "../../assets/images/Kiosk (1) (2).png"
+// import vrnew from "../../assets/images/VR (3).png"
+// import Gallery from "../../assets/images/video.png"
+// import Mobilescanner from "../../assets/images/Mobile scanner.png"
+// import digitalkiosk from "../../assets/images/Kiosk (1) (2).png"
 // vrnew
 
 // new images
-import ai from  "../../assets/Ownimages/AI based Virtual Assistants.png"
-import retailzone from  "../../assets/Ownimages/AI based Virtual Assistants.png"
-import productsampling from  "../../assets/Ownimages/Immersive Retail Experience Zones.png"
-import vr from  "../../assets/Ownimages/VR AND AR.png"
-import interactivepanels from  "../../assets/Ownimages/Kiosk (3).png"
-import engaging from  "../../assets/Ownimages/Gallery (3).png"
-import digital from  "../../assets/Ownimages/Gallery-1.png"
-import samp from "../../assets/Ownimages/Immersive Product Sampling.png"
+import ai from  "../../assets/images/c.png"
+// import retailzone from  "../../assets/Ownimages/AI based Virtual Assistants.png"
+import productsampling from  "../../assets/images/Immersive Retail Experience Zones.png"
+import vr from  "../../assets/images/VR AND AR.png"
+import interactivepanels from  "../../assets/images/Kiosk (3).png"
+import engaging from  "../../assets/images/Gallery (3).png"
+import digital from  "../../assets/images/Gallery-1.png"
+import samp from "../../assets/images/Immersive Product Sampling.png"
 
 
 class Features extends Component {

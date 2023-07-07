@@ -53,7 +53,7 @@ function  GetInTouch() {
     const[phone,setPhone]=useState("")
     const[subject,setSubject]=useState("")
     const[message,setMessage]=useState("")
-
+    const [phone_error, setPhone_error] = useState("");
 
    function handleSubmit(e)
    {
@@ -70,40 +70,53 @@ function  GetInTouch() {
           console.log(key[0] + ', ' + key[1]);
       }
 
-      const headerObject = {
-        'Content-Type':'multipart/form-data',
-        "Accept":"*/*",
-        // "Access-Control-Allow-Origin": "*",
+     
+
+      if (phone.length !== 10) {
+
+        setPhone_error('Phone number should contain 10 digits');
+
+      } else {
+        setPhone_error('');
+
+        const headerObject = {
+          'Content-Type':'multipart/form-data',
+          "Accept":"*/*",
+          // "Access-Control-Allow-Origin": "*",
+        }
+  
+        const formDataApi="http://sales.apprikart.com/core/api/insert_enquiry/";
+        
+  
+        axios.post(formDataApi,formDataTwo,{headers: headerObject})
+                .then((res) =>{
+  
+                    console.log("res",res.data)
+                    // window.alert(res.data.msg)
+  
+  
+                    if(res.data.status === "success"){
+  
+                      window.alert("your message will be attended soon by our team!")
+  
+                  }else{
+                      window.alert(res.data.msg)
+  
+                  }
+  
+  
+                  }).catch((err)=>{
+                     
+                    console.log("err.message", err.message)
+  
+                    
+  
+  
+                  })
+
       }
 
-      const formDataApi="http://sales.apprikart.com/core/api/insert_enquiry/";
       
-
-      axios.post(formDataApi,formDataTwo,{headers: headerObject})
-              .then((res) =>{
-
-                  console.log("res",res.data)
-                  // window.alert(res.data.msg)
-
-
-                  if(res.data.status === "success"){
-
-                    window.alert("your message will be attended soon by our team!")
-
-                }else{
-                    window.alert(res.data.msg)
-
-                }
-
-
-                }).catch((err)=>{
-                   
-                  console.log("err.message", err.message)
-
-                  
-
-
-                })
     
 
 
@@ -194,10 +207,11 @@ function  GetInTouch() {
                       />
                     </Col>
                     <Col sm="4">
-                      <AvField
+                      <input
+                      type="number"
                         name="email"
                         placeholder="Your Phone number"
-                        type="text"
+                        
                         errorMessage="Enter Your Phone number"
                         className="form-control"
                         // validate={{
@@ -206,9 +220,12 @@ function  GetInTouch() {
                         // }}
                         // id="email"
                         value={phone}
-                        onChange={(e)=>setPhone(e.target.value)}
+                        onChange={(e)=>{
+                              setPhone(e.target.value);                         
+                        }}
                         required
                       />
+                      <label style={{color: 'red'}}>{phone_error}</label>
                     </Col>
                     <Col sm="4">
                       <AvField

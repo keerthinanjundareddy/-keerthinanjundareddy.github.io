@@ -112,7 +112,12 @@ class Index1 extends Component {
 
                     {/* Importing footer */}
                     <Footer/>
+
+               
+                    
                 </Suspense>
+
+             
 
             </React.Fragment>
         );

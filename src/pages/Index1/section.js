@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
 import Carousel from 'react-bootstrap/Carousel';
-import carousel1 from "../../assets/images/Gallery (1).png";
-import carousel2 from "../../assets/images/Gallery (1).png";
-import carousel3 from "../../assets/images/Carosel 4.png";
+// import carousel1 from "../../assets/images/Gallery (1).png";
+// import carousel2 from "../../assets/images/Gallery (1).png";
+// import carousel3 from "../../assets/images/Carosel 4.png";
 // import carousel1 from '../images/Gallery (1).png';
 // import carousel2 from '../images/Gallery (1).jpg';
 // import carousel3 from '../images/Gallery (1).png';

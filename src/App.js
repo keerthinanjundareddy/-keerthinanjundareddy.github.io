@@ -24,13 +24,18 @@ class App extends Component {
     render() {
         return (
           <React.Fragment>
+           
           <Router>
             <Switch>
               {routes.map((route, idx) => (
                 <Route path={route.path} component={route.component} key={idx} />
               ))}
             </Switch>
+           
+
           </Router>
+       
+          {/* <iframe src="http://127.0.0.1:5501/"  width="100%" height="2000vh" ></iframe> */}
         </React.Fragment>
       );
     }
